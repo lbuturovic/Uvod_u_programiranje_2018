@@ -1,0 +1,7 @@
+/rhome/l/lbuturovic1/workspace/OR/ZSR10/Z13/main.c: In function ‘izbaci_najcescu’:
+/rhome/l/lbuturovic1/workspace/OR/ZSR10/Z13/main.c:37:12: warning: unused variable ‘k’ [-Wunused-variable]
+  int i=0,j,k;
+            ^
+/rhome/l/lbuturovic1/workspace/OR/ZSR10/Z13/main.c:36:8: warning: unused variable ‘s2’ [-Wunused-variable]
+  char *s2=s;
+        ^~

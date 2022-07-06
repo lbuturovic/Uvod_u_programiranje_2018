@@ -1,0 +1,7 @@
+/rhome/l/lbuturovic1/workspace/OR/ZSR10/Z3/main.c: In function ‘IzbaciTekst’:
+/rhome/l/lbuturovic1/workspace/OR/ZSR10/Z3/main.c:24:9: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   while(*p++=*q++)
+         ^
+/rhome/l/lbuturovic1/workspace/OR/ZSR10/Z3/main.c:16:8: warning: unused variable ‘poc’ [-Wunused-variable]
+  char* poc=Str;
+        ^~~

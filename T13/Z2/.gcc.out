@@ -1,0 +1,10 @@
+/rhome/l/lbuturovic1/workspace/OR/T13/Z2/main.c: In function ‘main’:
+/rhome/l/lbuturovic1/workspace/OR/T13/Z2/main.c:30:29: warning: format ‘%s’ expects argument of type ‘char *’, but argument 3 has type ‘char (*)[20]’ [-Wformat=]
+      while (fscanf(ulaz,"%20s%15s%2d%2d%\n", &studenti[i].prezime, &studenti[i].ime, &studenti[i].broj_bodova1, &studenti[i].broj_bodova2) == 4 && i<300)
+                          ~~~^                ~~~~~~~~~~~~~~~~~~~~
+/rhome/l/lbuturovic1/workspace/OR/T13/Z2/main.c:30:33: warning: format ‘%s’ expects argument of type ‘char *’, but argument 4 has type ‘char (*)[15]’ [-Wformat=]
+      while (fscanf(ulaz,"%20s%15s%2d%2d%\n", &studenti[i].prezime, &studenti[i].ime, &studenti[i].broj_bodova1, &studenti[i].broj_bodova2) == 4 && i<300)
+                              ~~~^                                  ~~~~~~~~~~~~~~~~
+/rhome/l/lbuturovic1/workspace/OR/T13/Z2/main.c:30:41: warning: unknown conversion type character ‘\x0a’ in format [-Wformat=]
+      while (fscanf(ulaz,"%20s%15s%2d%2d%\n", &studenti[i].prezime, &studenti[i].ime, &studenti[i].broj_bodova1, &studenti[i].broj_bodova2) == 4 && i<300)
+                                         ^~

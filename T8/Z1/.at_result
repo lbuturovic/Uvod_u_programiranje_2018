@@ -1,0 +1,31 @@
+{
+    "buildhost_description": {
+        "id": "lab002c01",
+        "os": "Linux 2.6.32-754.2.1.el6.x86_64 x86_64\n\"CentOS release 6.10 (Final)\"\n",
+        "compiler_version": "gcc (GCC) 6.2.0",
+        "debugger_version": "GNU gdb (GDB) 7.12",
+        "profiler_version": "valgrind-3.12.0"
+    },
+    "status": 4,
+    "compile_result": {
+        "status": 1,
+        "output": "main.c: In function ‘main’:\nmain.c:13:2: warning: ‘c’ is used uninitialized in this function [-Wuninitialized]\n  printf(\"\\nPrije funkcije f:a=%d, b=%d c=%d\",a,b,c);\n  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+        "parsed_output": [
+            {
+                "type": "warning",
+                "file": "main.c",
+                "line": "13",
+                "col": "2",
+                "message": "'c' is used uninitialized in this function",
+                "output": "/tmp/buildservice/bs_7835/main.c:13:2: warning: ‘c’ is used uninitialized in this function [-Wuninitialized]  printf(\"\\nPrije funkcije f:a=%d, b=%d c=%d\",a,b,c);  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+                "code": "printf(\"\\nPrije funkcije f:a=%d, b=%d c=%d\",a,b,c);"
+            }
+        ]
+    },
+    "run_result": [],
+    "debug_result": [],
+    "profile_result": [],
+    "test_results": [],
+    "queue_items": 1,
+    "time": 1543937071
+}

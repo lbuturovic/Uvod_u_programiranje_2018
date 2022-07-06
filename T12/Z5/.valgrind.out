@@ -1,0 +1,6 @@
+==25786== Memcheck, a memory error detector
+==25786== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==25786== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==25786== Command: /rhome/l/lbuturovic1/workspace/OR/T12/Z5/.runme
+==25786== Parent PID: 25771
+==25786== 

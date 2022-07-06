@@ -1,0 +1,12 @@
+/rhome/l/lbuturovic1/workspace/OR/T9/Z6/main.c: In function ‘strcmpp’:
+/rhome/l/lbuturovic1/workspace/OR/T9/Z6/main.c:16:13: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+  char* poc1=s1;
+             ^~
+/rhome/l/lbuturovic1/workspace/OR/T9/Z6/main.c:17:13: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+  char* poc2=s2;
+             ^~
+/rhome/l/lbuturovic1/workspace/OR/T9/Z6/main.c:19:2: error: ‘b1’ undeclared (first use in this function); did you mean ‘br1’?
+  b1++;
+  ^~
+  br1
+/rhome/l/lbuturovic1/workspace/OR/T9/Z6/main.c:19:2: note: each undeclared identifier is reported only once for each function it appears in

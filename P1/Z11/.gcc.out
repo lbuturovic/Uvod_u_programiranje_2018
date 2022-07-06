@@ -1,0 +1,19 @@
+/rhome/l/lbuturovic1/workspace/OR/P1/Z11/main.c: In function ‘main’:
+/rhome/l/lbuturovic1/workspace/OR/P1/Z11/main.c:20:8: warning: unused variable ‘pocetak’ [-Wunused-variable]
+  char* pocetak=q;
+        ^~~~~~~
+/rhome/l/lbuturovic1/workspace/OR/P1/Z11/main.c:17:8: warning: unused variable ‘temp’ [-Wunused-variable]
+  char* temp;
+        ^~~~
+/rhome/l/lbuturovic1/workspace/OR/P1/Z11/main.c:15:8: warning: unused variable ‘krajmaxi’ [-Wunused-variable]
+  char* krajmaxi;
+        ^~~~~~~~
+/rhome/l/lbuturovic1/workspace/OR/P1/Z11/main.c:14:8: warning: unused variable ‘krajmini’ [-Wunused-variable]
+  char* krajmini;
+        ^~~~~~~~
+/rhome/l/lbuturovic1/workspace/OR/P1/Z11/main.c:13:8: warning: unused variable ‘pocetakmaxi’ [-Wunused-variable]
+  char* pocetakmaxi;
+        ^~~~~~~~~~~
+/rhome/l/lbuturovic1/workspace/OR/P1/Z11/main.c:12:8: warning: unused variable ‘pocetakmini’ [-Wunused-variable]
+  char* pocetakmini;
+        ^~~~~~~~~~~

@@ -1,0 +1,299 @@
+{
+    "buildhost_description": {
+        "id": "lab002c28",
+        "os": "Linux 2.6.32-754.2.1.el6.x86_64 x86_64\n\"CentOS release 6.10 (Final)\"\n",
+        "compiler_version": "gcc (GCC) 6.2.0",
+        "debugger_version": "GNU gdb (GDB) 7.12",
+        "profiler_version": "valgrind-3.12.0"
+    },
+    "status": 4,
+    "compile_result": {
+        "status": 1,
+        "output": "main.c: In function ‘strcmpp’:\nmain.c:16:13: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]\n  char* poc1=s1;\n             ^~\nmain.c:17:13: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]\n  char* poc2=s2;\n             ^~",
+        "parsed_output": [
+            {
+                "type": "warning",
+                "file": "main.c",
+                "line": "16",
+                "col": "13",
+                "message": "initialization discards 'const' qualifier from pointer target type",
+                "output": "/tmp/buildservice/bs_548/main.c:16:13: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]  char* poc1=s1;             ^~",
+                "code": "char* poc1=s1;"
+            },
+            {
+                "type": "warning",
+                "file": "main.c",
+                "line": "17",
+                "col": "13",
+                "message": "initialization discards 'const' qualifier from pointer target type",
+                "output": "/tmp/buildservice/bs_548/main.c:17:13: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]  char* poc2=s2;             ^~",
+                "code": "char* poc2=s2;"
+            }
+        ]
+    },
+    "run_result": [],
+    "debug_result": [],
+    "profile_result": [],
+    "test_results": {
+        "792": {
+            "status": 1,
+            "run_result": {
+                "output": "-1",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": "bs_test_792.c: In function ‘strcmpp’:\nbs_test_792.c:18:13: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]\n  char* poc1=s1;\n             ^~\nbs_test_792.c:19:13: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]\n  char* poc2=s2;\n             ^~\nbs_test_792.c: In function ‘main’:\nbs_test_792.c:53:15: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]\n printf(\"%d\",  strcmp(s1, s2));\n               ^~~~~~",
+                "parsed_output": [
+                    {
+                        "type": "warning",
+                        "file": "bs_test_792.c",
+                        "line": "18",
+                        "col": "13",
+                        "message": "initialization discards 'const' qualifier from pointer target type",
+                        "output": "/tmp/buildservice/bs_548/bs_test_792.c:18:13: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]  char* poc1=s1;             ^~",
+                        "code": "char* poc1=s1;"
+                    },
+                    {
+                        "type": "warning",
+                        "file": "bs_test_792.c",
+                        "line": "19",
+                        "col": "13",
+                        "message": "initialization discards 'const' qualifier from pointer target type",
+                        "output": "/tmp/buildservice/bs_548/bs_test_792.c:19:13: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]  char* poc2=s2;             ^~",
+                        "code": "char* poc2=s2;"
+                    },
+                    {
+                        "type": "warning",
+                        "file": "bs_test_792.c",
+                        "line": "53",
+                        "col": "15",
+                        "message": "implicit declaration of function 'strcmp'",
+                        "output": "/tmp/buildservice/bs_548/bs_test_792.c:53:15: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration] printf(\"%d\",  strcmp(s1, s2));               ^~~~~~",
+                        "code": "printf(\"%d\",  strcmp(s1, s2));"
+                    }
+                ]
+            }
+        },
+        "793": {
+            "status": 1,
+            "run_result": {
+                "output": "1",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": "bs_test_793.c: In function ‘strcmpp’:\nbs_test_793.c:18:13: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]\n  char* poc1=s1;\n             ^~\nbs_test_793.c:19:13: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]\n  char* poc2=s2;\n             ^~\nbs_test_793.c: In function ‘main’:\nbs_test_793.c:53:15: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]\n printf(\"%d\",  strcmp(s1, s2));\n               ^~~~~~",
+                "parsed_output": [
+                    {
+                        "type": "warning",
+                        "file": "bs_test_793.c",
+                        "line": "18",
+                        "col": "13",
+                        "message": "initialization discards 'const' qualifier from pointer target type",
+                        "output": "/tmp/buildservice/bs_548/bs_test_793.c:18:13: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]  char* poc1=s1;             ^~",
+                        "code": "char* poc1=s1;"
+                    },
+                    {
+                        "type": "warning",
+                        "file": "bs_test_793.c",
+                        "line": "19",
+                        "col": "13",
+                        "message": "initialization discards 'const' qualifier from pointer target type",
+                        "output": "/tmp/buildservice/bs_548/bs_test_793.c:19:13: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]  char* poc2=s2;             ^~",
+                        "code": "char* poc2=s2;"
+                    },
+                    {
+                        "type": "warning",
+                        "file": "bs_test_793.c",
+                        "line": "53",
+                        "col": "15",
+                        "message": "implicit declaration of function 'strcmp'",
+                        "output": "/tmp/buildservice/bs_548/bs_test_793.c:53:15: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration] printf(\"%d\",  strcmp(s1, s2));               ^~~~~~",
+                        "code": "printf(\"%d\",  strcmp(s1, s2));"
+                    }
+                ]
+            }
+        },
+        "794": {
+            "status": 1,
+            "run_result": {
+                "output": "0",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": "bs_test_794.c: In function ‘strcmpp’:\nbs_test_794.c:18:13: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]\n  char* poc1=s1;\n             ^~\nbs_test_794.c:19:13: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]\n  char* poc2=s2;\n             ^~\nbs_test_794.c: In function ‘main’:\nbs_test_794.c:53:15: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]\n printf(\"%d\",  strcmp(s1, s2));\n               ^~~~~~",
+                "parsed_output": [
+                    {
+                        "type": "warning",
+                        "file": "bs_test_794.c",
+                        "line": "18",
+                        "col": "13",
+                        "message": "initialization discards 'const' qualifier from pointer target type",
+                        "output": "/tmp/buildservice/bs_548/bs_test_794.c:18:13: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]  char* poc1=s1;             ^~",
+                        "code": "char* poc1=s1;"
+                    },
+                    {
+                        "type": "warning",
+                        "file": "bs_test_794.c",
+                        "line": "19",
+                        "col": "13",
+                        "message": "initialization discards 'const' qualifier from pointer target type",
+                        "output": "/tmp/buildservice/bs_548/bs_test_794.c:19:13: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]  char* poc2=s2;             ^~",
+                        "code": "char* poc2=s2;"
+                    },
+                    {
+                        "type": "warning",
+                        "file": "bs_test_794.c",
+                        "line": "53",
+                        "col": "15",
+                        "message": "implicit declaration of function 'strcmp'",
+                        "output": "/tmp/buildservice/bs_548/bs_test_794.c:53:15: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration] printf(\"%d\",  strcmp(s1, s2));               ^~~~~~",
+                        "code": "printf(\"%d\",  strcmp(s1, s2));"
+                    }
+                ]
+            }
+        },
+        "795": {
+            "status": 6,
+            "run_result": {
+                "output": "-97",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": "bs_test_795.c: In function ‘strcmpp’:\nbs_test_795.c:18:13: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]\n  char* poc1=s1;\n             ^~\nbs_test_795.c:19:13: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]\n  char* poc2=s2;\n             ^~\nbs_test_795.c: In function ‘main’:\nbs_test_795.c:53:15: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]\n printf(\"%d\",  strcmp(s1, s2));\n               ^~~~~~",
+                "parsed_output": [
+                    {
+                        "type": "warning",
+                        "file": "bs_test_795.c",
+                        "line": "18",
+                        "col": "13",
+                        "message": "initialization discards 'const' qualifier from pointer target type",
+                        "output": "/tmp/buildservice/bs_548/bs_test_795.c:18:13: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]  char* poc1=s1;             ^~",
+                        "code": "char* poc1=s1;"
+                    },
+                    {
+                        "type": "warning",
+                        "file": "bs_test_795.c",
+                        "line": "19",
+                        "col": "13",
+                        "message": "initialization discards 'const' qualifier from pointer target type",
+                        "output": "/tmp/buildservice/bs_548/bs_test_795.c:19:13: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]  char* poc2=s2;             ^~",
+                        "code": "char* poc2=s2;"
+                    },
+                    {
+                        "type": "warning",
+                        "file": "bs_test_795.c",
+                        "line": "53",
+                        "col": "15",
+                        "message": "implicit declaration of function 'strcmp'",
+                        "output": "/tmp/buildservice/bs_548/bs_test_795.c:53:15: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration] printf(\"%d\",  strcmp(s1, s2));               ^~~~~~",
+                        "code": "printf(\"%d\",  strcmp(s1, s2));"
+                    }
+                ]
+            }
+        },
+        "1613": {
+            "status": 1,
+            "run_result": {
+                "output": "1",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": "bs_test_1613.c: In function ‘strcmpp’:\nbs_test_1613.c:18:13: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]\n  char* poc1=s1;\n             ^~\nbs_test_1613.c:19:13: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]\n  char* poc2=s2;\n             ^~\nbs_test_1613.c: In function ‘main’:\nbs_test_1613.c:53:15: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]\n printf(\"%d\",  strcmp(s1, s2));\n               ^~~~~~",
+                "parsed_output": [
+                    {
+                        "type": "warning",
+                        "file": "bs_test_1613.c",
+                        "line": "18",
+                        "col": "13",
+                        "message": "initialization discards 'const' qualifier from pointer target type",
+                        "output": "/tmp/buildservice/bs_548/bs_test_1613.c:18:13: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]  char* poc1=s1;             ^~",
+                        "code": "char* poc1=s1;"
+                    },
+                    {
+                        "type": "warning",
+                        "file": "bs_test_1613.c",
+                        "line": "19",
+                        "col": "13",
+                        "message": "initialization discards 'const' qualifier from pointer target type",
+                        "output": "/tmp/buildservice/bs_548/bs_test_1613.c:19:13: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]  char* poc2=s2;             ^~",
+                        "code": "char* poc2=s2;"
+                    },
+                    {
+                        "type": "warning",
+                        "file": "bs_test_1613.c",
+                        "line": "53",
+                        "col": "15",
+                        "message": "implicit declaration of function 'strcmp'",
+                        "output": "/tmp/buildservice/bs_548/bs_test_1613.c:53:15: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration] printf(\"%d\",  strcmp(s1, s2));               ^~~~~~",
+                        "code": "printf(\"%d\",  strcmp(s1, s2));"
+                    }
+                ]
+            }
+        },
+        "1614": {
+            "status": 6,
+            "run_result": {
+                "output": "-97",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": "bs_test_1614.c: In function ‘strcmpp’:\nbs_test_1614.c:18:13: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]\n  char* poc1=s1;\n             ^~\nbs_test_1614.c:19:13: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]\n  char* poc2=s2;\n             ^~\nbs_test_1614.c: In function ‘main’:\nbs_test_1614.c:53:15: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]\n printf(\"%d\",  strcmp(s1, s2));\n               ^~~~~~",
+                "parsed_output": [
+                    {
+                        "type": "warning",
+                        "file": "bs_test_1614.c",
+                        "line": "18",
+                        "col": "13",
+                        "message": "initialization discards 'const' qualifier from pointer target type",
+                        "output": "/tmp/buildservice/bs_548/bs_test_1614.c:18:13: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]  char* poc1=s1;             ^~",
+                        "code": "char* poc1=s1;"
+                    },
+                    {
+                        "type": "warning",
+                        "file": "bs_test_1614.c",
+                        "line": "19",
+                        "col": "13",
+                        "message": "initialization discards 'const' qualifier from pointer target type",
+                        "output": "/tmp/buildservice/bs_548/bs_test_1614.c:19:13: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]  char* poc2=s2;             ^~",
+                        "code": "char* poc2=s2;"
+                    },
+                    {
+                        "type": "warning",
+                        "file": "bs_test_1614.c",
+                        "line": "53",
+                        "col": "15",
+                        "message": "implicit declaration of function 'strcmp'",
+                        "output": "/tmp/buildservice/bs_548/bs_test_1614.c:53:15: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration] printf(\"%d\",  strcmp(s1, s2));               ^~~~~~",
+                        "code": "printf(\"%d\",  strcmp(s1, s2));"
+                    }
+                ]
+            }
+        }
+    },
+    "queue_items": 0,
+    "time": 1545398197
+}

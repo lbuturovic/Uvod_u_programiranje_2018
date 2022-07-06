@@ -1,0 +1,4 @@
+/rhome/l/lbuturovic1/workspace/OR/P1/Z2/main.c: In function ‘main’:
+/rhome/l/lbuturovic1/workspace/OR/P1/Z2/main.c:31:105: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+   else if((((-1)*nn)/k>0 || fabsl((-1)*nn/k)<EPSILON) && (((-1)*nn)/k<n || fabsl(((-1)*nn)/k-n)<EPSILON && fabsl(y1)>EPSILON))
+                                                                                                         ^

@@ -1,0 +1,4 @@
+/rhome/l/lbuturovic1/workspace/OR/T8/Z1/main.c: In function ‘main’:
+/rhome/l/lbuturovic1/workspace/OR/T8/Z1/main.c:13:2: warning: ‘c’ is used uninitialized in this function [-Wuninitialized]
+  printf("\nPrije funkcije f:a=%d, b=%d c=%d",a,b,c);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

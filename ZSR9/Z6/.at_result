@@ -1,0 +1,125 @@
+{
+    "buildhost_description": {
+        "id": "lab002c03",
+        "os": "Linux 2.6.32-754.2.1.el6.x86_64 x86_64\n\"CentOS release 6.10 (Final)\"\n",
+        "compiler_version": "gcc (GCC) 6.2.0",
+        "debugger_version": "GNU gdb (GDB) 7.12",
+        "profiler_version": "valgrind-3.12.0"
+    },
+    "status": 4,
+    "compile_result": {
+        "status": 1,
+        "output": ""
+    },
+    "run_result": [],
+    "debug_result": [],
+    "profile_result": [],
+    "test_results": {
+        "1341": {
+            "status": 6,
+            "run_result": {
+                "output": "          Bosna    Hercegovina'\\'\n'\\'",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "1342": {
+            "status": 3,
+            "run_result": [],
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 2,
+                "output": "bs_test_1342.c: In function ‘main’:\nbs_test_1342.c:60:12: warning: implicit declaration of function ‘PopuniDesno’ [-Wimplicit-function-declaration]\n char *p2 = PopuniDesno(n2, 15);\n            ^~~~~~~~~~~\nbs_test_1342.c:60:12: warning: initialization makes pointer from integer without a cast [-Wint-conversion]\n/tmp/cc7gxKjS.o: In function `main':\nbs_test_1342.c:(.text+0x265): undefined reference to `PopuniDesno'\ncollect2: error: ld returned 1 exit status",
+                "parsed_output": [
+                    {
+                        "type": "warning",
+                        "file": "TEST_CODE",
+                        "line": 5,
+                        "col": "12",
+                        "message": "implicit declaration of function 'PopuniDesno'",
+                        "output": "/tmp/buildservice/bs_1381/bs_test_1342.c:60:12: warning: implicit declaration of function ‘PopuniDesno’ [-Wimplicit-function-declaration] char *p2 = PopuniDesno(n2, 15);            ^~~~~~~~~~~",
+                        "code": "char *p2 = PopuniDesno(n2, 15);"
+                    },
+                    {
+                        "type": "warning",
+                        "file": "TEST_CODE",
+                        "line": 5,
+                        "col": "12",
+                        "message": "initialization makes pointer from integer without a cast",
+                        "output": "/tmp/buildservice/bs_1381/bs_test_1342.c:60:12: warning: initialization makes pointer from integer without a cast [-Wint-conversion]/tmp/cc7gxKjS.o: In function `main':bs_test_1342.c:(.text+0x265): undefined reference to `PopuniDesno'collect2: error: ld returned 1 exit status",
+                        "code": "/tmp/cc7gxKjS.o: In function `main':"
+                    }
+                ]
+            }
+        },
+        "1343": {
+            "status": 3,
+            "run_result": [],
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 2,
+                "output": "bs_test_1343.c: In function ‘main’:\nbs_test_1343.c:60:12: warning: implicit declaration of function ‘PopuniDesno’ [-Wimplicit-function-declaration]\n char *p2 = PopuniDesno(n2, 15);\n            ^~~~~~~~~~~\nbs_test_1343.c:60:12: warning: initialization makes pointer from integer without a cast [-Wint-conversion]\n/tmp/cc71L0tY.o: In function `main':\nbs_test_1343.c:(.text+0x24e): undefined reference to `PopuniDesno'\ncollect2: error: ld returned 1 exit status",
+                "parsed_output": [
+                    {
+                        "type": "warning",
+                        "file": "TEST_CODE",
+                        "line": 5,
+                        "col": "12",
+                        "message": "implicit declaration of function 'PopuniDesno'",
+                        "output": "/tmp/buildservice/bs_1381/bs_test_1343.c:60:12: warning: implicit declaration of function ‘PopuniDesno’ [-Wimplicit-function-declaration] char *p2 = PopuniDesno(n2, 15);            ^~~~~~~~~~~",
+                        "code": "char *p2 = PopuniDesno(n2, 15);"
+                    },
+                    {
+                        "type": "warning",
+                        "file": "TEST_CODE",
+                        "line": 5,
+                        "col": "12",
+                        "message": "initialization makes pointer from integer without a cast",
+                        "output": "/tmp/buildservice/bs_1381/bs_test_1343.c:60:12: warning: initialization makes pointer from integer without a cast [-Wint-conversion]/tmp/cc71L0tY.o: In function `main':bs_test_1343.c:(.text+0x24e): undefined reference to `PopuniDesno'collect2: error: ld returned 1 exit status",
+                        "code": "/tmp/cc71L0tY.o: In function `main':"
+                    }
+                ]
+            }
+        },
+        "1344": {
+            "status": 3,
+            "run_result": [],
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 2,
+                "output": "bs_test_1344.c: In function ‘main’:\nbs_test_1344.c:60:12: warning: implicit declaration of function ‘PopuniDesno’ [-Wimplicit-function-declaration]\n char *p2 = PopuniDesno(n2, 1);\n            ^~~~~~~~~~~\nbs_test_1344.c:60:12: warning: initialization makes pointer from integer without a cast [-Wint-conversion]\n/tmp/ccSJdUK7.o: In function `main':\nbs_test_1344.c:(.text+0x25a): undefined reference to `PopuniDesno'\ncollect2: error: ld returned 1 exit status",
+                "parsed_output": [
+                    {
+                        "type": "warning",
+                        "file": "TEST_CODE",
+                        "line": 5,
+                        "col": "12",
+                        "message": "implicit declaration of function 'PopuniDesno'",
+                        "output": "/tmp/buildservice/bs_1381/bs_test_1344.c:60:12: warning: implicit declaration of function ‘PopuniDesno’ [-Wimplicit-function-declaration] char *p2 = PopuniDesno(n2, 1);            ^~~~~~~~~~~",
+                        "code": "char *p2 = PopuniDesno(n2, 1);"
+                    },
+                    {
+                        "type": "warning",
+                        "file": "TEST_CODE",
+                        "line": 5,
+                        "col": "12",
+                        "message": "initialization makes pointer from integer without a cast",
+                        "output": "/tmp/buildservice/bs_1381/bs_test_1344.c:60:12: warning: initialization makes pointer from integer without a cast [-Wint-conversion]/tmp/ccSJdUK7.o: In function `main':bs_test_1344.c:(.text+0x25a): undefined reference to `PopuniDesno'collect2: error: ld returned 1 exit status",
+                        "code": "/tmp/ccSJdUK7.o: In function `main':"
+                    }
+                ]
+            }
+        }
+    },
+    "queue_items": 0,
+    "time": 1549017730
+}

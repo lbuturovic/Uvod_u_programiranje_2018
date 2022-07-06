@@ -1,0 +1,4 @@
+/rhome/l/lbuturovic1/workspace/OR/Ispit4/Z1/main.c: In function ‘prost_broj’:
+/rhome/l/lbuturovic1/workspace/OR/Ispit4/Z1/main.c:20:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^

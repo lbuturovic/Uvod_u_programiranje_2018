@@ -1,0 +1,67 @@
+{
+    "buildhost_description": {
+        "id": "lab002c01",
+        "os": "Linux 2.6.32-754.2.1.el6.x86_64 x86_64\n\"CentOS release 6.10 (Final)\"\n",
+        "compiler_version": "gcc (GCC) 6.2.0",
+        "debugger_version": "GNU gdb (GDB) 7.12",
+        "profiler_version": "valgrind-3.12.0"
+    },
+    "status": 3,
+    "compile_result": {
+        "status": 2,
+        "output": "main.c: In function ‘main’:\nmain.c:41:11: error: array subscript is not an integer\n        mat[k][j]=mat[k+1][j];\n           ^\nmain.c:41:21: error: array subscript is not an integer\n        mat[k][j]=mat[k+1][j];\n                     ^\nmain.c:33:4: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]\n    for(i=0;i<m;i++)\n    ^~~\nmain.c:50:5: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘for’\n     for(i=0;i<m;i++)\n     ^~~\nmain.c:5:56: warning: unused variable ‘prk’ [-Wunused-variable]\n  double mat[100][100],sr[100],sk[100],prosjek,prr[100],prk[100],s,k;\n                                                        ^~~\nmain.c:5:31: warning: unused variable ‘sk’ [-Wunused-variable]\n  double mat[100][100],sr[100],sk[100],prosjek,prr[100],prk[100],s,k;\n                               ^~",
+        "parsed_output": [
+            {
+                "type": "error",
+                "file": "main.c",
+                "line": "41",
+                "col": "11",
+                "message": "array subscript is not an integer",
+                "output": "/tmp/buildservice/bs_2274/main.c:41:11: error: array subscript is not an integer        mat[k][j]=mat[k+1][j];           ^",
+                "code": "mat[k][j]=mat[k+1][j];"
+            },
+            {
+                "type": "error",
+                "file": "main.c",
+                "line": "41",
+                "col": "21",
+                "message": "array subscript is not an integer",
+                "output": "/tmp/buildservice/bs_2274/main.c:41:21: error: array subscript is not an integer        mat[k][j]=mat[k+1][j];                     ^",
+                "code": "mat[k][j]=mat[k+1][j];"
+            },
+            {
+                "type": "warning",
+                "file": "main.c",
+                "line": "33",
+                "col": "4",
+                "message": "this 'for' clause does not guard...",
+                "output": "/tmp/buildservice/bs_2274/main.c:33:4: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]    for(i=0;i<m;i++)    ^~~",
+                "code": "for(i=0;i<m;i++)"
+            },
+            {
+                "type": "warning",
+                "file": "main.c",
+                "line": "5",
+                "col": "56",
+                "message": "unused variable 'prk'",
+                "output": "/tmp/buildservice/bs_2274/main.c:5:56: warning: unused variable ‘prk’ [-Wunused-variable]  double mat[100][100],sr[100],sk[100],prosjek,prr[100],prk[100],s,k;                                                        ^~~",
+                "code": "double mat[100][100],sr[100],sk[100],prosjek,prr[100],prk[100],s,k;"
+            },
+            {
+                "type": "warning",
+                "file": "main.c",
+                "line": "5",
+                "col": "31",
+                "message": "unused variable 'sk'",
+                "output": "/tmp/buildservice/bs_2274/main.c:5:31: warning: unused variable ‘sk’ [-Wunused-variable]  double mat[100][100],sr[100],sk[100],prosjek,prr[100],prk[100],s,k;                               ^~",
+                "code": "double mat[100][100],sr[100],sk[100],prosjek,prr[100],prk[100],s,k;"
+            }
+        ]
+    },
+    "run_result": [],
+    "debug_result": [],
+    "profile_result": [],
+    "test_results": [],
+    "queue_items": 0,
+    "time": 1543083373
+}

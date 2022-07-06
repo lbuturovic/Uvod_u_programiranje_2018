@@ -1,0 +1,74 @@
+{
+    "buildhost_description": {
+        "id": "lab002c26",
+        "os": "Linux 2.6.32-754.2.1.el6.x86_64 x86_64\n\"CentOS release 6.10 (Final)\"\n",
+        "compiler_version": "gcc (GCC) 6.2.0",
+        "debugger_version": "",
+        "profiler_version": "valgrind-3.12.0"
+    },
+    "status": 4,
+    "compile_result": {
+        "status": 1,
+        "output": "main.c: In function ‘max_slovo’:\nmain.c:9:14: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]\n   if(*s>='A' && *s<='Z' || *s>='a' && *s<='z') {\n      ~~~~~~~~^~~~~~~~~~",
+        "parsed_output": [
+            {
+                "type": "warning",
+                "file": "main.c",
+                "line": "9",
+                "col": "14",
+                "message": "suggest parentheses around '&&' within '||'",
+                "output": "/tmp/buildservice/bs_3884/main.c:9:14: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]   if(*s>='A' && *s<='Z' || *s>='a' && *s<='z') {      ~~~~~~~~^~~~~~~~~~",
+                "code": "if(*s>='A' && *s<='Z' || *s>='a' && *s<='z') {"
+            }
+        ]
+    },
+    "run_result": [],
+    "debug_result": [],
+    "profile_result": [],
+    "test_results": {
+        "1322": {
+            "status": 1,
+            "run_result": {
+                "output": "O\n",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "1323": {
+            "status": 1,
+            "run_result": {
+                "output": "A\n",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "1324": {
+            "status": 1,
+            "run_result": {
+                "output": "X",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        }
+    },
+    "queue_items": 0,
+    "time": 1545176887
+}

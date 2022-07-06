@@ -1,0 +1,144 @@
+{
+    "buildhost_description": {
+        "id": "stinkpad",
+        "os": "Linux 4.15.0-38-generic x86_64\nUbuntu 18.04.1 LTS\n",
+        "compiler_version": "gcc (Ubuntu 7.3.0-27ubuntu1~18.04) 7.3.0",
+        "debugger_version": "GNU gdb (Ubuntu 8.1-0ubuntu3) 8.1.0.20180409-git",
+        "profiler_version": "valgrind-3.13.0"
+    },
+    "status": 4,
+    "compile_result": {
+        "status": 1,
+        "output": "main.c: In function ‘main’:\nmain.c:11:6: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]\n  {   if(ps!=enter)\n      ^~\nmain.c:13:3: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’\n   scanf(\"%c\",&ps);\n   ^~~~~",
+        "parsed_output": [
+            {
+                "type": "warning",
+                "file": "main.c",
+                "line": "11",
+                "col": "6",
+                "message": "this 'if' clause does not guard...",
+                "output": "/tmp/buildservice/bs_3842/main.c:11:6: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]  {   if(ps!=enter)      ^~",
+                "code": "{   if(ps!=enter)"
+            }
+        ]
+    },
+    "run_result": [],
+    "debug_result": [],
+    "profile_result": [],
+    "test_results": {
+        "1": {
+            "status": 1,
+            "run_result": {
+                "output": "Unesite prognozu za Sarajevo:\nTemperatura: Padavine (D/N): Pogresan unos.\nPadavine (D/N): Unesite prognozu za Mostar:\nTemperatura: Padavine (D/N): Unesite prognozu za Bihac:\nTemperatura: Padavine (D/N): Drugarice idu u Mostar.",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "2": {
+            "status": 1,
+            "run_result": {
+                "output": "Unesite prognozu za Sarajevo:\nTemperatura: Padavine (D/N): Unesite prognozu za Mostar:\nTemperatura: Padavine (D/N): Unesite prognozu za Bihac:\nTemperatura: Padavine (D/N): Drugarice idu u Sarajevo.",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3": {
+            "status": 1,
+            "run_result": {
+                "output": "Unesite prognozu za Sarajevo:\nTemperatura: Padavine (D/N): Unesite prognozu za Mostar:\nTemperatura: Padavine (D/N): Unesite prognozu za Bihac:\nTemperatura: Padavine (D/N): Anja i Una mogu u Mostar.",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "4": {
+            "status": 1,
+            "run_result": {
+                "output": "Unesite prognozu za Sarajevo:\nTemperatura: Padavine (D/N): Unesite prognozu za Mostar:\nTemperatura: Padavine (D/N): Unesite prognozu za Bihac:\nTemperatura: Padavine (D/N): Anja i Elma mogu u Bihac.",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "5": {
+            "status": 1,
+            "run_result": {
+                "output": "Unesite prognozu za Sarajevo:\nTemperatura: Padavine (D/N): Unesite prognozu za Mostar:\nTemperatura: Padavine (D/N): Unesite prognozu za Bihac:\nTemperatura: Padavine (D/N): Ne odgovara niti jedan grad.",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "6": {
+            "status": 1,
+            "run_result": {
+                "output": "Unesite prognozu za Sarajevo:\nTemperatura: Padavine (D/N): Unesite prognozu za Mostar:\nTemperatura: Padavine (D/N): Unesite prognozu za Bihac:\nTemperatura: Padavine (D/N): Anja i Elma mogu u Mostar.",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "7": {
+            "status": 1,
+            "run_result": {
+                "output": "Unesite prognozu za Sarajevo:\nTemperatura: Padavine (D/N): Unesite prognozu za Mostar:\nTemperatura: Padavine (D/N): Unesite prognozu za Bihac:\nTemperatura: Padavine (D/N): Anja i Elma mogu u Mostar.",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "8": {
+            "status": 1,
+            "run_result": {
+                "output": "Unesite prognozu za Sarajevo:\nTemperatura: Padavine (D/N): Unesite prognozu za Mostar:\nTemperatura: Padavine (D/N): Unesite prognozu za Bihac:\nTemperatura: Padavine (D/N): Drugarice idu u Mostar.",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        }
+    },
+    "queue_items": 20,
+    "time": 1541449986
+}

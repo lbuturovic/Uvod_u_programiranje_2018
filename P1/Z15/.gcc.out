@@ -1,0 +1,5 @@
+/rhome/l/lbuturovic1/workspace/OR/P1/Z15/main.c: In function ‘zamijeni_min_max’:
+/rhome/l/lbuturovic1/workspace/OR/P1/Z15/main.c:22:8: error: ‘q’ undeclared (first use in this function)
+    pom=q;
+        ^
+/rhome/l/lbuturovic1/workspace/OR/P1/Z15/main.c:22:8: note: each undeclared identifier is reported only once for each function it appears in

@@ -1,0 +1,53 @@
+==10365== Memcheck, a memory error detector
+==10365== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==10365== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==10365== Command: /rhome/l/lbuturovic1/workspace/OR/T8/Z1/.runme
+==10365== Parent PID: 10361
+==10365== 
+==10365== Conditional jump or move depends on uninitialised value(s)
+==10365==    at 0x509A8DA: vfprintf (vfprintf.c:1642)
+==10365==    by 0x509C67F: buffered_vfprintf (vfprintf.c:2329)
+==10365==    by 0x5099725: vfprintf (vfprintf.c:1301)
+==10365==    by 0x50A2F25: printf (printf.c:33)
+==10365==    by 0x10871B: main (main.c:13)
+==10365== 
+==10365== Use of uninitialised value of size 8
+==10365==    at 0x509686B: _itoa_word (_itoa.c:179)
+==10365==    by 0x5099F0D: vfprintf (vfprintf.c:1642)
+==10365==    by 0x509C67F: buffered_vfprintf (vfprintf.c:2329)
+==10365==    by 0x5099725: vfprintf (vfprintf.c:1301)
+==10365==    by 0x50A2F25: printf (printf.c:33)
+==10365==    by 0x10871B: main (main.c:13)
+==10365== 
+==10365== Conditional jump or move depends on uninitialised value(s)
+==10365==    at 0x5096875: _itoa_word (_itoa.c:179)
+==10365==    by 0x5099F0D: vfprintf (vfprintf.c:1642)
+==10365==    by 0x509C67F: buffered_vfprintf (vfprintf.c:2329)
+==10365==    by 0x5099725: vfprintf (vfprintf.c:1301)
+==10365==    by 0x50A2F25: printf (printf.c:33)
+==10365==    by 0x10871B: main (main.c:13)
+==10365== 
+==10365== Conditional jump or move depends on uninitialised value(s)
+==10365==    at 0x509A014: vfprintf (vfprintf.c:1642)
+==10365==    by 0x509C67F: buffered_vfprintf (vfprintf.c:2329)
+==10365==    by 0x5099725: vfprintf (vfprintf.c:1301)
+==10365==    by 0x50A2F25: printf (printf.c:33)
+==10365==    by 0x10871B: main (main.c:13)
+==10365== 
+==10365== Conditional jump or move depends on uninitialised value(s)
+==10365==    at 0x509AB4C: vfprintf (vfprintf.c:1642)
+==10365==    by 0x509C67F: buffered_vfprintf (vfprintf.c:2329)
+==10365==    by 0x5099725: vfprintf (vfprintf.c:1301)
+==10365==    by 0x50A2F25: printf (printf.c:33)
+==10365==    by 0x10871B: main (main.c:13)
+==10365== 
+==10365== 
+==10365== HEAP SUMMARY:
+==10365==     in use at exit: 0 bytes in 0 blocks
+==10365==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==10365== 
+==10365== All heap blocks were freed -- no leaks are possible
+==10365== 
+==10365== For counts of detected and suppressed errors, rerun with: -v
+==10365== Use --track-origins=yes to see where uninitialised values come from
+==10365== ERROR SUMMARY: 7 errors from 5 contexts (suppressed: 0 from 0)

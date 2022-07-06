@@ -1,0 +1,185 @@
+{
+    "buildhost_description": {
+        "id": "lab002c18",
+        "os": "Linux 2.6.32-754.2.1.el6.x86_64 x86_64\n\"CentOS release 6.10 (Final)\"\n",
+        "compiler_version": "gcc (GCC) 6.2.0",
+        "debugger_version": "GNU gdb (GDB) 7.12",
+        "profiler_version": "valgrind-3.12.0"
+    },
+    "status": 4,
+    "compile_result": {
+        "status": 1,
+        "output": ""
+    },
+    "run_result": [],
+    "debug_result": [],
+    "profile_result": [],
+    "test_results": {
+        "2199": {
+            "status": 3,
+            "run_result": [],
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 2,
+                "output": "bs_test_2199.c: In function ‘main’:\nbs_test_2199.c:15:14: warning: implicit declaration of function ‘GenerisiTablice’ [-Wimplicit-function-declaration]\n printf(\"%d \",GenerisiTablice (tablica, nova));\n              ^~~~~~~~~~~~~~~\n/tmp/ccXgW8uo.o: In function `main':\nbs_test_2199.c:(.text+0x64): undefined reference to `GenerisiTablice'\ncollect2: error: ld returned 1 exit status",
+                "parsed_output": [
+                    {
+                        "type": "warning",
+                        "file": "TEST_CODE",
+                        "line": 3,
+                        "col": "14",
+                        "message": "implicit declaration of function 'GenerisiTablice'",
+                        "output": "/tmp/buildservice/bs_8089/bs_test_2199.c:15:14: warning: implicit declaration of function ‘GenerisiTablice’ [-Wimplicit-function-declaration] printf(\"%d \",GenerisiTablice (tablica, nova));              ^~~~~~~~~~~~~~~/tmp/ccXgW8uo.o: In function `main':bs_test_2199.c:(.text+0x64): undefined reference to `GenerisiTablice'collect2: error: ld returned 1 exit status",
+                        "code": "printf(\"%d \",GenerisiTablice (tablica, nova));"
+                    }
+                ]
+            }
+        },
+        "2200": {
+            "status": 3,
+            "run_result": [],
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 2,
+                "output": "bs_test_2200.c: In function ‘main’:\nbs_test_2200.c:15:14: warning: implicit declaration of function ‘GenerisiTablice’ [-Wimplicit-function-declaration]\n printf(\"%d \",GenerisiTablice (tablica, nova));\n              ^~~~~~~~~~~~~~~\n/tmp/ccdzeBpt.o: In function `main':\nbs_test_2200.c:(.text+0x64): undefined reference to `GenerisiTablice'\nbs_test_2200.c:(.text+0x99): undefined reference to `GenerisiTablice'\nbs_test_2200.c:(.text+0xce): undefined reference to `GenerisiTablice'\ncollect2: error: ld returned 1 exit status",
+                "parsed_output": [
+                    {
+                        "type": "warning",
+                        "file": "TEST_CODE",
+                        "line": 3,
+                        "col": "14",
+                        "message": "implicit declaration of function 'GenerisiTablice'",
+                        "output": "/tmp/buildservice/bs_8089/bs_test_2200.c:15:14: warning: implicit declaration of function ‘GenerisiTablice’ [-Wimplicit-function-declaration] printf(\"%d \",GenerisiTablice (tablica, nova));              ^~~~~~~~~~~~~~~/tmp/ccdzeBpt.o: In function `main':bs_test_2200.c:(.text+0x64): undefined reference to `GenerisiTablice'bs_test_2200.c:(.text+0x99): undefined reference to `GenerisiTablice'bs_test_2200.c:(.text+0xce): undefined reference to `GenerisiTablice'collect2: error: ld returned 1 exit status",
+                        "code": "printf(\"%d \",GenerisiTablice (tablica, nova));"
+                    }
+                ]
+            }
+        },
+        "2201": {
+            "status": 3,
+            "run_result": [],
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 2,
+                "output": "bs_test_2201.c: In function ‘main’:\nbs_test_2201.c:15:14: warning: implicit declaration of function ‘GenerisiTablice’ [-Wimplicit-function-declaration]\n printf(\"%d \",GenerisiTablice (tablica, nova));\n              ^~~~~~~~~~~~~~~\n/tmp/ccT2tOhz.o: In function `main':\nbs_test_2201.c:(.text+0x64): undefined reference to `GenerisiTablice'\nbs_test_2201.c:(.text+0x99): undefined reference to `GenerisiTablice'\nbs_test_2201.c:(.text+0xce): undefined reference to `GenerisiTablice'\ncollect2: error: ld returned 1 exit status",
+                "parsed_output": [
+                    {
+                        "type": "warning",
+                        "file": "TEST_CODE",
+                        "line": 3,
+                        "col": "14",
+                        "message": "implicit declaration of function 'GenerisiTablice'",
+                        "output": "/tmp/buildservice/bs_8089/bs_test_2201.c:15:14: warning: implicit declaration of function ‘GenerisiTablice’ [-Wimplicit-function-declaration] printf(\"%d \",GenerisiTablice (tablica, nova));              ^~~~~~~~~~~~~~~/tmp/ccT2tOhz.o: In function `main':bs_test_2201.c:(.text+0x64): undefined reference to `GenerisiTablice'bs_test_2201.c:(.text+0x99): undefined reference to `GenerisiTablice'bs_test_2201.c:(.text+0xce): undefined reference to `GenerisiTablice'collect2: error: ld returned 1 exit status",
+                        "code": "printf(\"%d \",GenerisiTablice (tablica, nova));"
+                    }
+                ]
+            }
+        },
+        "2202": {
+            "status": 3,
+            "run_result": [],
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 2,
+                "output": "bs_test_2202.c: In function ‘main’:\nbs_test_2202.c:15:14: warning: implicit declaration of function ‘GenerisiTablice’ [-Wimplicit-function-declaration]\n printf(\"%d \",GenerisiTablice (tablica, nova));\n              ^~~~~~~~~~~~~~~\n/tmp/ccDGA1TC.o: In function `main':\nbs_test_2202.c:(.text+0x64): undefined reference to `GenerisiTablice'\nbs_test_2202.c:(.text+0x99): undefined reference to `GenerisiTablice'\nbs_test_2202.c:(.text+0xce): undefined reference to `GenerisiTablice'\ncollect2: error: ld returned 1 exit status",
+                "parsed_output": [
+                    {
+                        "type": "warning",
+                        "file": "TEST_CODE",
+                        "line": 3,
+                        "col": "14",
+                        "message": "implicit declaration of function 'GenerisiTablice'",
+                        "output": "/tmp/buildservice/bs_8089/bs_test_2202.c:15:14: warning: implicit declaration of function ‘GenerisiTablice’ [-Wimplicit-function-declaration] printf(\"%d \",GenerisiTablice (tablica, nova));              ^~~~~~~~~~~~~~~/tmp/ccDGA1TC.o: In function `main':bs_test_2202.c:(.text+0x64): undefined reference to `GenerisiTablice'bs_test_2202.c:(.text+0x99): undefined reference to `GenerisiTablice'bs_test_2202.c:(.text+0xce): undefined reference to `GenerisiTablice'collect2: error: ld returned 1 exit status",
+                        "code": "printf(\"%d \",GenerisiTablice (tablica, nova));"
+                    }
+                ]
+            }
+        },
+        "2203": {
+            "status": 3,
+            "run_result": [],
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 2,
+                "output": "bs_test_2203.c: In function ‘main’:\nbs_test_2203.c:15:14: warning: implicit declaration of function ‘GenerisiTablice’ [-Wimplicit-function-declaration]\n printf(\"%d \",GenerisiTablice (tablica, nova));\n              ^~~~~~~~~~~~~~~\n/tmp/ccKMnesB.o: In function `main':\nbs_test_2203.c:(.text+0x64): undefined reference to `GenerisiTablice'\nbs_test_2203.c:(.text+0x99): undefined reference to `GenerisiTablice'\nbs_test_2203.c:(.text+0xce): undefined reference to `GenerisiTablice'\ncollect2: error: ld returned 1 exit status",
+                "parsed_output": [
+                    {
+                        "type": "warning",
+                        "file": "TEST_CODE",
+                        "line": 3,
+                        "col": "14",
+                        "message": "implicit declaration of function 'GenerisiTablice'",
+                        "output": "/tmp/buildservice/bs_8089/bs_test_2203.c:15:14: warning: implicit declaration of function ‘GenerisiTablice’ [-Wimplicit-function-declaration] printf(\"%d \",GenerisiTablice (tablica, nova));              ^~~~~~~~~~~~~~~/tmp/ccKMnesB.o: In function `main':bs_test_2203.c:(.text+0x64): undefined reference to `GenerisiTablice'bs_test_2203.c:(.text+0x99): undefined reference to `GenerisiTablice'bs_test_2203.c:(.text+0xce): undefined reference to `GenerisiTablice'collect2: error: ld returned 1 exit status",
+                        "code": "printf(\"%d \",GenerisiTablice (tablica, nova));"
+                    }
+                ]
+            }
+        },
+        "2204": {
+            "status": 3,
+            "run_result": [],
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 2,
+                "output": "bs_test_2204.c: In function ‘main’:\nbs_test_2204.c:17:8: warning: implicit declaration of function ‘GenerisiTablice’ [-Wimplicit-function-declaration]\n    if (GenerisiTablice (tablica, nova) != 1) {\n        ^~~~~~~~~~~~~~~\nbs_test_2204.c:21:4: warning: implicit declaration of function ‘strcpy’ [-Wimplicit-function-declaration]\n    strcpy(tablica, nova);\n    ^~~~~~\nbs_test_2204.c:21:4: warning: incompatible implicit declaration of built-in function ‘strcpy’\nbs_test_2204.c:21:4: note: include ‘<string.h>’ or provide a declaration of ‘strcpy’\n/tmp/cc80FIAE.o: In function `main':\nbs_test_2204.c:(.text+0x6d): undefined reference to `GenerisiTablice'\ncollect2: error: ld returned 1 exit status",
+                "parsed_output": [
+                    {
+                        "type": "warning",
+                        "file": "TEST_CODE",
+                        "line": 5,
+                        "col": "8",
+                        "message": "implicit declaration of function 'GenerisiTablice'",
+                        "output": "/tmp/buildservice/bs_8089/bs_test_2204.c:17:8: warning: implicit declaration of function ‘GenerisiTablice’ [-Wimplicit-function-declaration]    if (GenerisiTablice (tablica, nova) != 1) {        ^~~~~~~~~~~~~~~",
+                        "code": "if (GenerisiTablice (tablica, nova) != 1) {"
+                    },
+                    {
+                        "type": "warning",
+                        "file": "TEST_CODE",
+                        "line": 9,
+                        "col": "4",
+                        "message": "implicit declaration of function 'strcpy'",
+                        "output": "/tmp/buildservice/bs_8089/bs_test_2204.c:21:4: warning: implicit declaration of function ‘strcpy’ [-Wimplicit-function-declaration]    strcpy(tablica, nova);    ^~~~~~",
+                        "code": "strcpy(tablica, nova);"
+                    },
+                    {
+                        "type": "warning",
+                        "file": "TEST_CODE",
+                        "line": 9,
+                        "col": "4",
+                        "message": "incompatible implicit declaration of built-in function 'strcpy'",
+                        "output": "/tmp/buildservice/bs_8089/bs_test_2204.c:21:4: warning: incompatible implicit declaration of built-in function ‘strcpy’"
+                    }
+                ]
+            }
+        },
+        "2205": {
+            "status": 3,
+            "run_result": [],
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 2,
+                "output": "bs_test_2205.c: In function ‘main’:\nbs_test_2205.c:15:15: warning: implicit declaration of function ‘GenerisiTablice’ [-Wimplicit-function-declaration]\n printf(\"%d \", GenerisiTablice (tablica, nova));\n               ^~~~~~~~~~~~~~~\n/tmp/cca2LBiK.o: In function `main':\nbs_test_2205.c:(.text+0x64): undefined reference to `GenerisiTablice'\nbs_test_2205.c:(.text+0x95): undefined reference to `GenerisiTablice'\nbs_test_2205.c:(.text+0xc6): undefined reference to `GenerisiTablice'\nbs_test_2205.c:(.text+0xf7): undefined reference to `GenerisiTablice'\nbs_test_2205.c:(.text+0x128): undefined reference to `GenerisiTablice'\n/tmp/cca2LBiK.o:bs_test_2205.c:(.text+0x159): more undefined references to `GenerisiTablice' follow\ncollect2: error: ld returned 1 exit status",
+                "parsed_output": [
+                    {
+                        "type": "warning",
+                        "file": "TEST_CODE",
+                        "line": 3,
+                        "col": "15",
+                        "message": "implicit declaration of function 'GenerisiTablice'",
+                        "output": "/tmp/buildservice/bs_8089/bs_test_2205.c:15:15: warning: implicit declaration of function ‘GenerisiTablice’ [-Wimplicit-function-declaration] printf(\"%d \", GenerisiTablice (tablica, nova));               ^~~~~~~~~~~~~~~/tmp/cca2LBiK.o: In function `main':bs_test_2205.c:(.text+0x64): undefined reference to `GenerisiTablice'bs_test_2205.c:(.text+0x95): undefined reference to `GenerisiTablice'bs_test_2205.c:(.text+0xc6): undefined reference to `GenerisiTablice'bs_test_2205.c:(.text+0xf7): undefined reference to `GenerisiTablice'bs_test_2205.c:(.text+0x128): undefined reference to `GenerisiTablice'/tmp/cca2LBiK.o:bs_test_2205.c:(.text+0x159): more undefined references to `GenerisiTablice' followcollect2: error: ld returned 1 exit status",
+                        "code": "printf(\"%d \", GenerisiTablice (tablica, nova));"
+                    }
+                ]
+            }
+        }
+    },
+    "queue_items": 0,
+    "time": 1551137855
+}

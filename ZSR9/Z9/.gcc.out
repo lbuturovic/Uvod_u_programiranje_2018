@@ -1,0 +1,4 @@
+/rhome/l/lbuturovic1/workspace/OR/ZSR9/Z9/main.c: In function ‘UnesiRealan’:
+/rhome/l/lbuturovic1/workspace/OR/ZSR9/Z9/main.c:33:14: warning: unused variable ‘p’ [-Wunused-variable]
+  const char* p=s;
+              ^

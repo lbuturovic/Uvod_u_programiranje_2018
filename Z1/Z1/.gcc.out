@@ -1,0 +1,7 @@
+/rhome/l/lbuturovic1/workspace/OR/Z1/Z1/main.c: In function ‘main’:
+/rhome/l/lbuturovic1/workspace/OR/Z1/Z1/main.c:11:6: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  {   if(ps!=enter)
+      ^~
+/rhome/l/lbuturovic1/workspace/OR/Z1/Z1/main.c:13:3: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+   scanf("%c",&ps);
+   ^~~~~

@@ -1,0 +1,170 @@
+{
+    "buildhost_description": {
+        "id": "lab002c03",
+        "os": "Linux 2.6.32-754.2.1.el6.x86_64 x86_64\n\"CentOS release 6.10 (Final)\"\n",
+        "compiler_version": "gcc (GCC) 6.2.0",
+        "debugger_version": "GNU gdb (GDB) 7.12",
+        "profiler_version": "valgrind-3.12.0"
+    },
+    "status": 4,
+    "compile_result": {
+        "status": 1,
+        "output": ""
+    },
+    "run_result": [],
+    "debug_result": [],
+    "profile_result": [],
+    "test_results": {
+        "1170": {
+            "status": 6,
+            "run_result": {
+                "output": "Unesite elemente niza A: Unesite elemente niza B: Niz C glasi: 5382,2,2,2,23,3,3,3,31,1,1,1,15,5,5,5,51,1,1,1,1",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "1466": {
+            "status": 6,
+            "run_result": {
+                "output": "Unesite elemente niza A: Unesite elemente niza B: Niz C glasi: 567,7,7,7,7,7,7,7,7,78,8,8,8,8,8,8,8,8,89,9,9,9,9,9,9,9,9,910,10,10,10,10,10,10,10,10,1011,11,11,11,11,11,11,11,11,1112,12,12,12,12,12,12,12,12,1213,13,13,13,13,13,13,13,13,1314,14,14,14,14,14,14,14,14,1415,15,15,15,15,15,15,15,15,1516,16,16,16,16,16,16,16,16,16",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": {
+                "output": "==15852== exp-sgcheck, a stack and global array overrun detector\n==15852== NOTE: This is an Experimental-Class Valgrind Tool\n==15852== Copyright (C) 2003-2015, and GNU GPL'd, by OpenWorks Ltd et al.\n==15852== Using Valgrind-3.12.0 and LibVEX; rerun with -h for copyright info\n==15852== Command: bs_test_1466\n==15852== Parent PID: 15851\n==15852== \n==15852== Invalid write of size 4\n==15852==    at 0x40072C: _main (bs_test_1466.c:40)\n==15852==    by 0x4007C3: main (bs_test_1466.c:55)\n==15852==  Address 0xfff000bd8 expected vs actual:\n==15852==  Expected: stack array \"c\" of size 40 in this frame\n==15852==  Actual:   unknown\n==15852==  Actual:   is 0 after Expected\n==15852== \n==15852== Invalid read of size 4\n==15852==    at 0x400767: _main (bs_test_1466.c:42)\n==15852==    by 0x4007C3: main (bs_test_1466.c:55)\n==15852==  Address 0xfff000bd8 expected vs actual:\n==15852==  Expected: stack array \"c\" of size 40 in this frame\n==15852==  Actual:   unknown\n==15852==  Actual:   is 0 after Expected\n==15852== \n==15852== Invalid write of size 4\n==15852==    at 0x40072C: _main (bs_test_1466.c:40)\n==15852==    by 0x4007C3: main (bs_test_1466.c:55)\n==15852==  Address 0xfff000bb8 expected vs actual:\n==15852==  Expected: unknown\n==15852==  Actual:   stack array \"c\" of size 40 in this frame\n==15852== \n==15852== Invalid read of size 4\n==15852==    at 0x400767: _main (bs_test_1466.c:42)\n==15852==    by 0x4007C3: main (bs_test_1466.c:55)\n==15852==  Address 0xfff000bb8 expected vs actual:\n==15852==  Expected: unknown\n==15852==  Actual:   stack array \"c\" of size 40 in this frame\n==15852== \n==15852== \n==15852== ERROR SUMMARY: 38 errors from 4 contexts (suppressed: 0 from 0)\n",
+                "status": 2,
+                "parsed_output": [
+                    {
+                        "type": 2,
+                        "output": " Invalid write of size 4\n    at 0x40072C: _main (bs_test_1466.c:40)\n    by 0x4007C3: main (bs_test_1466.c:55)\n  Address 0xfff000bd8 expected vs actual:\n  Expected: stack array \"c\" of size 40 in this frame\n  Actual:   unknown\n  Actual:   is 0 after Expected\n",
+                        "file": "main.c",
+                        "line": 38
+                    },
+                    {
+                        "type": 2,
+                        "output": " Invalid read of size 4\n    at 0x400767: _main (bs_test_1466.c:42)\n    by 0x4007C3: main (bs_test_1466.c:55)\n  Address 0xfff000bd8 expected vs actual:\n  Expected: stack array \"c\" of size 40 in this frame\n  Actual:   unknown\n  Actual:   is 0 after Expected\n",
+                        "file": "main.c",
+                        "line": 40
+                    }
+                ]
+            },
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "1467": {
+            "status": 6,
+            "run_result": {
+                "output": "Unesite elemente niza A: Unesite elemente niza B: Niz C glasi: 56789101112131415,15,15,1515,15,15,1517,17,17,1718,18,18,18",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": {
+                "output": "==15868== exp-sgcheck, a stack and global array overrun detector\n==15868== NOTE: This is an Experimental-Class Valgrind Tool\n==15868== Copyright (C) 2003-2015, and GNU GPL'd, by OpenWorks Ltd et al.\n==15868== Using Valgrind-3.12.0 and LibVEX; rerun with -h for copyright info\n==15868== Command: bs_test_1467\n==15868== Parent PID: 15867\n==15868== \n==15868== Invalid write of size 4\n==15868==    at 0x40072C: _main (bs_test_1467.c:40)\n==15868==    by 0x4007C3: main (bs_test_1467.c:55)\n==15868==  Address 0xfff000be0 expected vs actual:\n==15868==  Expected: unknown\n==15868==  Actual:   stack array \"b\" of size 40 in this frame\n==15868== \n==15868== Invalid read of size 4\n==15868==    at 0x400767: _main (bs_test_1467.c:42)\n==15868==    by 0x4007C3: main (bs_test_1467.c:55)\n==15868==  Address 0xfff000be0 expected vs actual:\n==15868==  Expected: unknown\n==15868==  Actual:   stack array \"b\" of size 40 in this frame\n==15868== \n==15868== Invalid write of size 4\n==15868==    at 0x40072C: _main (bs_test_1467.c:40)\n==15868==    by 0x4007C3: main (bs_test_1467.c:55)\n==15868==  Address 0xfff000bd8 expected vs actual:\n==15868==  Expected: stack array \"b\" of size 40 in this frame\n==15868==  Actual:   unknown\n==15868==  Actual:   is 8 before Expected\n==15868== \n==15868== Invalid read of size 4\n==15868==    at 0x400767: _main (bs_test_1467.c:42)\n==15868==    by 0x4007C3: main (bs_test_1467.c:55)\n==15868==  Address 0xfff000bd8 expected vs actual:\n==15868==  Expected: stack array \"b\" of size 40 in this frame\n==15868==  Actual:   unknown\n==15868==  Actual:   is 8 before Expected\n==15868== \n==15868== \n==15868== ERROR SUMMARY: 14 errors from 4 contexts (suppressed: 0 from 0)\n",
+                "status": 2,
+                "parsed_output": [
+                    {
+                        "type": 2,
+                        "output": " Invalid write of size 4\n    at 0x40072C: _main (bs_test_1467.c:40)\n    by 0x4007C3: main (bs_test_1467.c:55)\n  Address 0xfff000be0 expected vs actual:\n  Expected: unknown\n  Actual:   stack array \"b\" of size 40 in this frame\n",
+                        "file": "main.c",
+                        "line": 38
+                    },
+                    {
+                        "type": 2,
+                        "output": " Invalid read of size 4\n    at 0x400767: _main (bs_test_1467.c:42)\n    by 0x4007C3: main (bs_test_1467.c:55)\n  Address 0xfff000be0 expected vs actual:\n  Expected: unknown\n  Actual:   stack array \"b\" of size 40 in this frame\n",
+                        "file": "main.c",
+                        "line": 40
+                    }
+                ]
+            },
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "1468": {
+            "status": 6,
+            "run_result": {
+                "output": "Unesite elemente niza A: Unesite elemente niza B: Niz C glasi: 7,7,7,7,7,7,7,7,7,78,8,8,8,8,8,8,8,8,89,9,9,9,9,9,9,9,9,910,10,10,10,10,10,10,10,10,1011,11,11,11,11,11,11,11,11,1112,12,12,12,12,12,12,12,12,1213,13,13,13,13,13,13,13,13,1314,14,14,14,14,14,14,14,14,1415,15,15,15,15,15,15,15,15,1516,16,16,16,16,16,16,16,16,16",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "1469": {
+            "status": 6,
+            "run_result": {
+                "output": "Unesite elemente niza A: Unesite elemente niza B: Niz C glasi: 567891011121314",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "1470": {
+            "status": 6,
+            "run_result": {
+                "output": "Unesite elemente niza A: Unesite elemente niza B: Niz C glasi: 123",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "1471": {
+            "status": 6,
+            "run_result": {
+                "output": "Unesite elemente niza A: Unesite elemente niza B: Niz C glasi: 56789101112131415,15,15,15,15,15,15,15,15,1515,15,15,15,15,15,15,15,15,1515,15,15,15,15,15,15,15,15,1515,15,15,15,15,15,15,15,15,1515,15,15,15,15,15,15,15,15,1515,15,15,15,15,15,15,15,15,1515,15,15,15,15,15,15,15,15,1515,15,15,15,15,15,15,15,15,1523,23,23,23,23,23,23,23,23,2324,24,24,24,24,24,24,24,24,24",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": {
+                "output": "==15938== exp-sgcheck, a stack and global array overrun detector\n==15938== NOTE: This is an Experimental-Class Valgrind Tool\n==15938== Copyright (C) 2003-2015, and GNU GPL'd, by OpenWorks Ltd et al.\n==15938== Using Valgrind-3.12.0 and LibVEX; rerun with -h for copyright info\n==15938== Command: bs_test_1471\n==15938== Parent PID: 15937\n==15938== \n==15938== Invalid write of size 4\n==15938==    at 0x40072C: _main (bs_test_1471.c:40)\n==15938==    by 0x4007C3: main (bs_test_1471.c:55)\n==15938==  Address 0xfff000be0 expected vs actual:\n==15938==  Expected: unknown\n==15938==  Actual:   stack array \"b\" of size 40 in this frame\n==15938== \n==15938== Invalid read of size 4\n==15938==    at 0x400767: _main (bs_test_1471.c:42)\n==15938==    by 0x4007C3: main (bs_test_1471.c:55)\n==15938==  Address 0xfff000be0 expected vs actual:\n==15938==  Expected: unknown\n==15938==  Actual:   stack array \"b\" of size 40 in this frame\n==15938== \n==15938== Invalid write of size 4\n==15938==    at 0x40072C: _main (bs_test_1471.c:40)\n==15938==    by 0x4007C3: main (bs_test_1471.c:55)\n==15938==  Address 0xfff000bd8 expected vs actual:\n==15938==  Expected: stack array \"b\" of size 40 in this frame\n==15938==  Actual:   unknown\n==15938==  Actual:   is 8 before Expected\n==15938== \n==15938== Invalid read of size 4\n==15938==    at 0x400767: _main (bs_test_1471.c:42)\n==15938==    by 0x4007C3: main (bs_test_1471.c:55)\n==15938==  Address 0xfff000bd8 expected vs actual:\n==15938==  Expected: stack array \"b\" of size 40 in this frame\n==15938==  Actual:   unknown\n==15938==  Actual:   is 8 before Expected\n==15938== \n==15938== \n==15938== ERROR SUMMARY: 38 errors from 4 contexts (suppressed: 0 from 0)\n",
+                "status": 2,
+                "parsed_output": [
+                    {
+                        "type": 2,
+                        "output": " Invalid write of size 4\n    at 0x40072C: _main (bs_test_1471.c:40)\n    by 0x4007C3: main (bs_test_1471.c:55)\n  Address 0xfff000be0 expected vs actual:\n  Expected: unknown\n  Actual:   stack array \"b\" of size 40 in this frame\n",
+                        "file": "main.c",
+                        "line": 38
+                    },
+                    {
+                        "type": 2,
+                        "output": " Invalid read of size 4\n    at 0x400767: _main (bs_test_1471.c:42)\n    by 0x4007C3: main (bs_test_1471.c:55)\n  Address 0xfff000be0 expected vs actual:\n  Expected: unknown\n  Actual:   stack array \"b\" of size 40 in this frame\n",
+                        "file": "main.c",
+                        "line": 40
+                    }
+                ]
+            },
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        }
+    },
+    "queue_items": 0,
+    "time": 1542931061
+}

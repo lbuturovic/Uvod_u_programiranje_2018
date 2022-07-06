@@ -1,0 +1,10 @@
+/rhome/l/lbuturovic1/workspace/OR/ZSR9/Z4/main.c: In function ‘izbaci_viska_razmake’:
+/rhome/l/lbuturovic1/workspace/OR/ZSR9/Z4/main.c:49:33: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+    while(Da_li_je_razmak(p) && p!='\0')
+                                 ^~
+/rhome/l/lbuturovic1/workspace/OR/ZSR9/Z4/main.c:49:32: note: did you mean to dereference the pointer?
+    while(Da_li_je_razmak(p) && p!='\0')
+                                ^
+/rhome/l/lbuturovic1/workspace/OR/ZSR9/Z4/main.c:24:6: warning: unused variable ‘prvi’ [-Wunused-variable]
+  int prvi;
+      ^~~~

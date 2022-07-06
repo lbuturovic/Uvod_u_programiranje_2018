@@ -1,0 +1,371 @@
+{
+    "buildhost_description": {
+        "id": "lab002c28",
+        "os": "Linux 2.6.32-754.2.1.el6.x86_64 x86_64\n\"CentOS release 6.10 (Final)\"\n",
+        "compiler_version": "gcc (GCC) 6.2.0",
+        "debugger_version": "GNU gdb (GDB) 7.12",
+        "profiler_version": "valgrind-3.12.0"
+    },
+    "status": 4,
+    "compile_result": {
+        "status": 1,
+        "output": "main.c: In function ‘maxtemp’:\nmain.c:6:9: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]\n  int *q=p+br;\n         ^\nmain.c:7:9: warning: comparison of distinct pointer types lacks a cast\n  while(p<q) {\n         ^\nmain.c: In function ‘prtemp’:\nmain.c:20:9: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]\n  int *q=p+br;\n         ^\nmain.c:21:9: warning: comparison of distinct pointer types lacks a cast\n  while(p<q) {\n         ^",
+        "parsed_output": [
+            {
+                "type": "warning",
+                "file": "main.c",
+                "line": "6",
+                "col": "9",
+                "message": "initialization from incompatible pointer type",
+                "output": "/tmp/buildservice/bs_6231/main.c:6:9: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]  int *q=p+br;         ^",
+                "code": "int *q=p+br;"
+            },
+            {
+                "type": "warning",
+                "file": "main.c",
+                "line": "7",
+                "col": "9",
+                "message": "comparison of distinct pointer types lacks a cast",
+                "output": "/tmp/buildservice/bs_6231/main.c:7:9: warning: comparison of distinct pointer types lacks a cast  while(p<q) {         ^",
+                "code": "while(p<q) {"
+            },
+            {
+                "type": "warning",
+                "file": "main.c",
+                "line": "20",
+                "col": "9",
+                "message": "initialization from incompatible pointer type",
+                "output": "/tmp/buildservice/bs_6231/main.c:20:9: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]  int *q=p+br;         ^",
+                "code": "int *q=p+br;"
+            },
+            {
+                "type": "warning",
+                "file": "main.c",
+                "line": "21",
+                "col": "9",
+                "message": "comparison of distinct pointer types lacks a cast",
+                "output": "/tmp/buildservice/bs_6231/main.c:21:9: warning: comparison of distinct pointer types lacks a cast  while(p<q) {         ^",
+                "code": "while(p<q) {"
+            }
+        ]
+    },
+    "run_result": [],
+    "debug_result": [],
+    "profile_result": [],
+    "test_results": {
+        "751": {
+            "status": 1,
+            "run_result": {
+                "output": "Unesite broj mjerenja: Unesite temperature: Maksimalna temperatura: 20.0\nProsjecna temperatura: 14.0",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": "bs_test_751.c: In function ‘maxtemp’:\nbs_test_751.c:8:9: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]\n  int *q=p+br;\n         ^\nbs_test_751.c:9:9: warning: comparison of distinct pointer types lacks a cast\n  while(p<q) {\n         ^\nbs_test_751.c: In function ‘prtemp’:\nbs_test_751.c:22:9: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]\n  int *q=p+br;\n         ^\nbs_test_751.c:23:9: warning: comparison of distinct pointer types lacks a cast\n  while(p<q) {\n         ^",
+                "parsed_output": [
+                    {
+                        "type": "warning",
+                        "file": "bs_test_751.c",
+                        "line": "8",
+                        "col": "9",
+                        "message": "initialization from incompatible pointer type",
+                        "output": "/tmp/buildservice/bs_6231/bs_test_751.c:8:9: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]  int *q=p+br;         ^",
+                        "code": "int *q=p+br;"
+                    },
+                    {
+                        "type": "warning",
+                        "file": "bs_test_751.c",
+                        "line": "9",
+                        "col": "9",
+                        "message": "comparison of distinct pointer types lacks a cast",
+                        "output": "/tmp/buildservice/bs_6231/bs_test_751.c:9:9: warning: comparison of distinct pointer types lacks a cast  while(p<q) {         ^",
+                        "code": "while(p<q) {"
+                    },
+                    {
+                        "type": "warning",
+                        "file": "bs_test_751.c",
+                        "line": "22",
+                        "col": "9",
+                        "message": "initialization from incompatible pointer type",
+                        "output": "/tmp/buildservice/bs_6231/bs_test_751.c:22:9: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]  int *q=p+br;         ^",
+                        "code": "int *q=p+br;"
+                    },
+                    {
+                        "type": "warning",
+                        "file": "bs_test_751.c",
+                        "line": "23",
+                        "col": "9",
+                        "message": "comparison of distinct pointer types lacks a cast",
+                        "output": "/tmp/buildservice/bs_6231/bs_test_751.c:23:9: warning: comparison of distinct pointer types lacks a cast  while(p<q) {         ^",
+                        "code": "while(p<q) {"
+                    }
+                ]
+            }
+        },
+        "752": {
+            "status": 1,
+            "run_result": {
+                "output": "10.70",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": "bs_test_752.c: In function ‘maxtemp’:\nbs_test_752.c:8:9: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]\n  int *q=p+br;\n         ^\nbs_test_752.c:9:9: warning: comparison of distinct pointer types lacks a cast\n  while(p<q) {\n         ^\nbs_test_752.c: In function ‘prtemp’:\nbs_test_752.c:22:9: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]\n  int *q=p+br;\n         ^\nbs_test_752.c:23:9: warning: comparison of distinct pointer types lacks a cast\n  while(p<q) {\n         ^",
+                "parsed_output": [
+                    {
+                        "type": "warning",
+                        "file": "bs_test_752.c",
+                        "line": "8",
+                        "col": "9",
+                        "message": "initialization from incompatible pointer type",
+                        "output": "/tmp/buildservice/bs_6231/bs_test_752.c:8:9: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]  int *q=p+br;         ^",
+                        "code": "int *q=p+br;"
+                    },
+                    {
+                        "type": "warning",
+                        "file": "bs_test_752.c",
+                        "line": "9",
+                        "col": "9",
+                        "message": "comparison of distinct pointer types lacks a cast",
+                        "output": "/tmp/buildservice/bs_6231/bs_test_752.c:9:9: warning: comparison of distinct pointer types lacks a cast  while(p<q) {         ^",
+                        "code": "while(p<q) {"
+                    },
+                    {
+                        "type": "warning",
+                        "file": "bs_test_752.c",
+                        "line": "22",
+                        "col": "9",
+                        "message": "initialization from incompatible pointer type",
+                        "output": "/tmp/buildservice/bs_6231/bs_test_752.c:22:9: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]  int *q=p+br;         ^",
+                        "code": "int *q=p+br;"
+                    },
+                    {
+                        "type": "warning",
+                        "file": "bs_test_752.c",
+                        "line": "23",
+                        "col": "9",
+                        "message": "comparison of distinct pointer types lacks a cast",
+                        "output": "/tmp/buildservice/bs_6231/bs_test_752.c:23:9: warning: comparison of distinct pointer types lacks a cast  while(p<q) {         ^",
+                        "code": "while(p<q) {"
+                    }
+                ]
+            }
+        },
+        "753": {
+            "status": 1,
+            "run_result": {
+                "output": "4.46",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": "bs_test_753.c: In function ‘maxtemp’:\nbs_test_753.c:8:9: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]\n  int *q=p+br;\n         ^\nbs_test_753.c:9:9: warning: comparison of distinct pointer types lacks a cast\n  while(p<q) {\n         ^\nbs_test_753.c: In function ‘prtemp’:\nbs_test_753.c:22:9: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]\n  int *q=p+br;\n         ^\nbs_test_753.c:23:9: warning: comparison of distinct pointer types lacks a cast\n  while(p<q) {\n         ^",
+                "parsed_output": [
+                    {
+                        "type": "warning",
+                        "file": "bs_test_753.c",
+                        "line": "8",
+                        "col": "9",
+                        "message": "initialization from incompatible pointer type",
+                        "output": "/tmp/buildservice/bs_6231/bs_test_753.c:8:9: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]  int *q=p+br;         ^",
+                        "code": "int *q=p+br;"
+                    },
+                    {
+                        "type": "warning",
+                        "file": "bs_test_753.c",
+                        "line": "9",
+                        "col": "9",
+                        "message": "comparison of distinct pointer types lacks a cast",
+                        "output": "/tmp/buildservice/bs_6231/bs_test_753.c:9:9: warning: comparison of distinct pointer types lacks a cast  while(p<q) {         ^",
+                        "code": "while(p<q) {"
+                    },
+                    {
+                        "type": "warning",
+                        "file": "bs_test_753.c",
+                        "line": "22",
+                        "col": "9",
+                        "message": "initialization from incompatible pointer type",
+                        "output": "/tmp/buildservice/bs_6231/bs_test_753.c:22:9: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]  int *q=p+br;         ^",
+                        "code": "int *q=p+br;"
+                    },
+                    {
+                        "type": "warning",
+                        "file": "bs_test_753.c",
+                        "line": "23",
+                        "col": "9",
+                        "message": "comparison of distinct pointer types lacks a cast",
+                        "output": "/tmp/buildservice/bs_6231/bs_test_753.c:23:9: warning: comparison of distinct pointer types lacks a cast  while(p<q) {         ^",
+                        "code": "while(p<q) {"
+                    }
+                ]
+            }
+        },
+        "754": {
+            "status": 1,
+            "run_result": {
+                "output": "0.00 0.00",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": "bs_test_754.c: In function ‘maxtemp’:\nbs_test_754.c:8:9: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]\n  int *q=p+br;\n         ^\nbs_test_754.c:9:9: warning: comparison of distinct pointer types lacks a cast\n  while(p<q) {\n         ^\nbs_test_754.c: In function ‘prtemp’:\nbs_test_754.c:22:9: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]\n  int *q=p+br;\n         ^\nbs_test_754.c:23:9: warning: comparison of distinct pointer types lacks a cast\n  while(p<q) {\n         ^",
+                "parsed_output": [
+                    {
+                        "type": "warning",
+                        "file": "bs_test_754.c",
+                        "line": "8",
+                        "col": "9",
+                        "message": "initialization from incompatible pointer type",
+                        "output": "/tmp/buildservice/bs_6231/bs_test_754.c:8:9: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]  int *q=p+br;         ^",
+                        "code": "int *q=p+br;"
+                    },
+                    {
+                        "type": "warning",
+                        "file": "bs_test_754.c",
+                        "line": "9",
+                        "col": "9",
+                        "message": "comparison of distinct pointer types lacks a cast",
+                        "output": "/tmp/buildservice/bs_6231/bs_test_754.c:9:9: warning: comparison of distinct pointer types lacks a cast  while(p<q) {         ^",
+                        "code": "while(p<q) {"
+                    },
+                    {
+                        "type": "warning",
+                        "file": "bs_test_754.c",
+                        "line": "22",
+                        "col": "9",
+                        "message": "initialization from incompatible pointer type",
+                        "output": "/tmp/buildservice/bs_6231/bs_test_754.c:22:9: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]  int *q=p+br;         ^",
+                        "code": "int *q=p+br;"
+                    },
+                    {
+                        "type": "warning",
+                        "file": "bs_test_754.c",
+                        "line": "23",
+                        "col": "9",
+                        "message": "comparison of distinct pointer types lacks a cast",
+                        "output": "/tmp/buildservice/bs_6231/bs_test_754.c:23:9: warning: comparison of distinct pointer types lacks a cast  while(p<q) {         ^",
+                        "code": "while(p<q) {"
+                    }
+                ]
+            }
+        },
+        "1542": {
+            "status": 1,
+            "run_result": {
+                "output": "OK",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": "bs_test_1542.c: In function ‘maxtemp’:\nbs_test_1542.c:8:9: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]\n  int *q=p+br;\n         ^\nbs_test_1542.c:9:9: warning: comparison of distinct pointer types lacks a cast\n  while(p<q) {\n         ^\nbs_test_1542.c: In function ‘prtemp’:\nbs_test_1542.c:22:9: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]\n  int *q=p+br;\n         ^\nbs_test_1542.c:23:9: warning: comparison of distinct pointer types lacks a cast\n  while(p<q) {\n         ^",
+                "parsed_output": [
+                    {
+                        "type": "warning",
+                        "file": "bs_test_1542.c",
+                        "line": "8",
+                        "col": "9",
+                        "message": "initialization from incompatible pointer type",
+                        "output": "/tmp/buildservice/bs_6231/bs_test_1542.c:8:9: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]  int *q=p+br;         ^",
+                        "code": "int *q=p+br;"
+                    },
+                    {
+                        "type": "warning",
+                        "file": "bs_test_1542.c",
+                        "line": "9",
+                        "col": "9",
+                        "message": "comparison of distinct pointer types lacks a cast",
+                        "output": "/tmp/buildservice/bs_6231/bs_test_1542.c:9:9: warning: comparison of distinct pointer types lacks a cast  while(p<q) {         ^",
+                        "code": "while(p<q) {"
+                    },
+                    {
+                        "type": "warning",
+                        "file": "bs_test_1542.c",
+                        "line": "22",
+                        "col": "9",
+                        "message": "initialization from incompatible pointer type",
+                        "output": "/tmp/buildservice/bs_6231/bs_test_1542.c:22:9: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]  int *q=p+br;         ^",
+                        "code": "int *q=p+br;"
+                    },
+                    {
+                        "type": "warning",
+                        "file": "bs_test_1542.c",
+                        "line": "23",
+                        "col": "9",
+                        "message": "comparison of distinct pointer types lacks a cast",
+                        "output": "/tmp/buildservice/bs_6231/bs_test_1542.c:23:9: warning: comparison of distinct pointer types lacks a cast  while(p<q) {         ^",
+                        "code": "while(p<q) {"
+                    }
+                ]
+            }
+        },
+        "1548": {
+            "status": 1,
+            "run_result": {
+                "output": "99.99 49.99",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": "bs_test_1548.c: In function ‘maxtemp’:\nbs_test_1548.c:8:9: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]\n  int *q=p+br;\n         ^\nbs_test_1548.c:9:9: warning: comparison of distinct pointer types lacks a cast\n  while(p<q) {\n         ^\nbs_test_1548.c: In function ‘prtemp’:\nbs_test_1548.c:22:9: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]\n  int *q=p+br;\n         ^\nbs_test_1548.c:23:9: warning: comparison of distinct pointer types lacks a cast\n  while(p<q) {\n         ^",
+                "parsed_output": [
+                    {
+                        "type": "warning",
+                        "file": "bs_test_1548.c",
+                        "line": "8",
+                        "col": "9",
+                        "message": "initialization from incompatible pointer type",
+                        "output": "/tmp/buildservice/bs_6231/bs_test_1548.c:8:9: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]  int *q=p+br;         ^",
+                        "code": "int *q=p+br;"
+                    },
+                    {
+                        "type": "warning",
+                        "file": "bs_test_1548.c",
+                        "line": "9",
+                        "col": "9",
+                        "message": "comparison of distinct pointer types lacks a cast",
+                        "output": "/tmp/buildservice/bs_6231/bs_test_1548.c:9:9: warning: comparison of distinct pointer types lacks a cast  while(p<q) {         ^",
+                        "code": "while(p<q) {"
+                    },
+                    {
+                        "type": "warning",
+                        "file": "bs_test_1548.c",
+                        "line": "22",
+                        "col": "9",
+                        "message": "initialization from incompatible pointer type",
+                        "output": "/tmp/buildservice/bs_6231/bs_test_1548.c:22:9: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]  int *q=p+br;         ^",
+                        "code": "int *q=p+br;"
+                    },
+                    {
+                        "type": "warning",
+                        "file": "bs_test_1548.c",
+                        "line": "23",
+                        "col": "9",
+                        "message": "comparison of distinct pointer types lacks a cast",
+                        "output": "/tmp/buildservice/bs_6231/bs_test_1548.c:23:9: warning: comparison of distinct pointer types lacks a cast  while(p<q) {         ^",
+                        "code": "while(p<q) {"
+                    }
+                ]
+            }
+        }
+    },
+    "queue_items": 1,
+    "time": 1543939610
+}

@@ -1,0 +1,7 @@
+/rhome/l/lbuturovic1/workspace/OR/Z5/Z2/main.c: In function ‘izbaci_visak’:
+/rhome/l/lbuturovic1/workspace/OR/Z5/Z2/main.c:67:6: warning: unused variable ‘j’ [-Wunused-variable]
+  int j;
+      ^
+/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status

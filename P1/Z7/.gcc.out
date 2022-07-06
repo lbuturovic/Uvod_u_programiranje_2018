@@ -1,0 +1,7 @@
+/rhome/l/lbuturovic1/workspace/OR/P1/Z7/main.c: In function ‘ukloni_komentare’:
+/rhome/l/lbuturovic1/workspace/OR/P1/Z7/main.c:20:11: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+    while(p!='\0')
+           ^~
+/rhome/l/lbuturovic1/workspace/OR/P1/Z7/main.c:20:10: note: did you mean to dereference the pointer?
+    while(p!='\0')
+          ^

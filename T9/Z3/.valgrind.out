@@ -1,0 +1,22 @@
+==17531== Memcheck, a memory error detector
+==17531== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==17531== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==17531== Command: /rhome/l/lbuturovic1/workspace/OR/T9/Z3/.runme
+==17531== Parent PID: 17515
+==17531== 
+==17531== 
+==17531== Process terminating with default action of signal 1 (SIGHUP)
+==17531==    at 0x514E081: read (read.c:27)
+==17531==    by 0x50CB147: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:531)
+==17531==    by 0x50CC3F1: _IO_default_uflow (genops.c:380)
+==17531==    by 0x10870D: unesi (main.c:3)
+==17531==    by 0x108840: main (main.c:35)
+==17531== 
+==17531== HEAP SUMMARY:
+==17531==     in use at exit: 0 bytes in 0 blocks
+==17531==   total heap usage: 1 allocs, 1 frees, 1,024 bytes allocated
+==17531== 
+==17531== All heap blocks were freed -- no leaks are possible
+==17531== 
+==17531== For counts of detected and suppressed errors, rerun with: -v
+==17531== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

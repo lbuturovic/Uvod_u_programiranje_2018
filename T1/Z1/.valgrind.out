@@ -1,0 +1,145 @@
+==15472== Memcheck, a memory error detector
+==15472== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==15472== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==15472== Command: /rhome/l/lbuturovic1/workspace/OR/T1/Z1/.runme
+==15472== Parent PID: 15459
+==15472== 
+==15472== Conditional jump or move depends on uninitialised value(s)
+==15472==    at 0x509D1B8: __printf_fp_l (printf_fp.c:392)
+==15472==    by 0x509AA06: vfprintf (vfprintf.c:1642)
+==15472==    by 0x509C67F: buffered_vfprintf (vfprintf.c:2329)
+==15472==    by 0x5099725: vfprintf (vfprintf.c:1301)
+==15472==    by 0x50A2F25: printf (printf.c:33)
+==15472==    by 0x1087E3: main (main.c:16)
+==15472== 
+==15472== Conditional jump or move depends on uninitialised value(s)
+==15472==    at 0x509D1D9: __printf_fp_l (printf_fp.c:392)
+==15472==    by 0x509AA06: vfprintf (vfprintf.c:1642)
+==15472==    by 0x509C67F: buffered_vfprintf (vfprintf.c:2329)
+==15472==    by 0x5099725: vfprintf (vfprintf.c:1301)
+==15472==    by 0x50A2F25: printf (printf.c:33)
+==15472==    by 0x1087E3: main (main.c:16)
+==15472== 
+==15472== Conditional jump or move depends on uninitialised value(s)
+==15472==    at 0x5092A30: __mpn_extract_double (dbl2mpn.c:56)
+==15472==    by 0x509D208: __printf_fp_l (printf_fp.c:392)
+==15472==    by 0x509AA06: vfprintf (vfprintf.c:1642)
+==15472==    by 0x509C67F: buffered_vfprintf (vfprintf.c:2329)
+==15472==    by 0x5099725: vfprintf (vfprintf.c:1301)
+==15472==    by 0x50A2F25: printf (printf.c:33)
+==15472==    by 0x1087E3: main (main.c:16)
+==15472== 
+==15472== Conditional jump or move depends on uninitialised value(s)
+==15472==    at 0x5092A35: __mpn_extract_double (dbl2mpn.c:60)
+==15472==    by 0x509D208: __printf_fp_l (printf_fp.c:392)
+==15472==    by 0x509AA06: vfprintf (vfprintf.c:1642)
+==15472==    by 0x509C67F: buffered_vfprintf (vfprintf.c:2329)
+==15472==    by 0x5099725: vfprintf (vfprintf.c:1301)
+==15472==    by 0x50A2F25: printf (printf.c:33)
+==15472==    by 0x1087E3: main (main.c:16)
+==15472== 
+==15472== Conditional jump or move depends on uninitialised value(s)
+==15472==    at 0x509DB1D: __printf_fp_l (printf_fp.c:974)
+==15472==    by 0x509AA06: vfprintf (vfprintf.c:1642)
+==15472==    by 0x509C67F: buffered_vfprintf (vfprintf.c:2329)
+==15472==    by 0x5099725: vfprintf (vfprintf.c:1301)
+==15472==    by 0x50A2F25: printf (printf.c:33)
+==15472==    by 0x1087E3: main (main.c:16)
+==15472== 
+==15472== Conditional jump or move depends on uninitialised value(s)
+==15472==    at 0x509DB3E: __printf_fp_l (printf_fp.c:977)
+==15472==    by 0x509AA06: vfprintf (vfprintf.c:1642)
+==15472==    by 0x509C67F: buffered_vfprintf (vfprintf.c:2329)
+==15472==    by 0x5099725: vfprintf (vfprintf.c:1301)
+==15472==    by 0x50A2F25: printf (printf.c:33)
+==15472==    by 0x1087E3: main (main.c:16)
+==15472== 
+==15472== Conditional jump or move depends on uninitialised value(s)
+==15472==    at 0x509EC3D: __printf_fp_l (printf_fp.c:987)
+==15472==    by 0x509AA06: vfprintf (vfprintf.c:1642)
+==15472==    by 0x509C67F: buffered_vfprintf (vfprintf.c:2329)
+==15472==    by 0x5099725: vfprintf (vfprintf.c:1301)
+==15472==    by 0x50A2F25: printf (printf.c:33)
+==15472==    by 0x1087E3: main (main.c:16)
+==15472== 
+==15472== Conditional jump or move depends on uninitialised value(s)
+==15472==    at 0x509EC58: __printf_fp_l (printf_fp.c:987)
+==15472==    by 0x509AA06: vfprintf (vfprintf.c:1642)
+==15472==    by 0x509C67F: buffered_vfprintf (vfprintf.c:2329)
+==15472==    by 0x5099725: vfprintf (vfprintf.c:1301)
+==15472==    by 0x50A2F25: printf (printf.c:33)
+==15472==    by 0x1087E3: main (main.c:16)
+==15472== 
+==15472== Conditional jump or move depends on uninitialised value(s)
+==15472==    at 0x509E2CC: round_away (rounding-mode.h:52)
+==15472==    by 0x509E2CC: __printf_fp_l (printf_fp.c:994)
+==15472==    by 0x509AA06: vfprintf (vfprintf.c:1642)
+==15472==    by 0x509C67F: buffered_vfprintf (vfprintf.c:2329)
+==15472==    by 0x5099725: vfprintf (vfprintf.c:1301)
+==15472==    by 0x50A2F25: printf (printf.c:33)
+==15472==    by 0x1087E3: main (main.c:16)
+==15472== 
+==15472== Conditional jump or move depends on uninitialised value(s)
+==15472==    at 0x509DCB1: __printf_fp_l (printf_fp.c:1162)
+==15472==    by 0x509AA06: vfprintf (vfprintf.c:1642)
+==15472==    by 0x509C67F: buffered_vfprintf (vfprintf.c:2329)
+==15472==    by 0x5099725: vfprintf (vfprintf.c:1301)
+==15472==    by 0x50A2F25: printf (printf.c:33)
+==15472==    by 0x1087E3: main (main.c:16)
+==15472== 
+==15472== Conditional jump or move depends on uninitialised value(s)
+==15472==    at 0x509DDA4: __printf_fp_l (printf_fp.c:1169)
+==15472==    by 0x509AA06: vfprintf (vfprintf.c:1642)
+==15472==    by 0x509C67F: buffered_vfprintf (vfprintf.c:2329)
+==15472==    by 0x5099725: vfprintf (vfprintf.c:1301)
+==15472==    by 0x50A2F25: printf (printf.c:33)
+==15472==    by 0x1087E3: main (main.c:16)
+==15472== 
+==15472== Conditional jump or move depends on uninitialised value(s)
+==15472==    at 0x509E89A: __printf_fp_l (printf_fp.c:1225)
+==15472==    by 0x509AA06: vfprintf (vfprintf.c:1642)
+==15472==    by 0x509C67F: buffered_vfprintf (vfprintf.c:2329)
+==15472==    by 0x5099725: vfprintf (vfprintf.c:1301)
+==15472==    by 0x50A2F25: printf (printf.c:33)
+==15472==    by 0x1087E3: main (main.c:16)
+==15472== 
+==15472== Conditional jump or move depends on uninitialised value(s)
+==15472==    at 0x509E87B: __printf_fp_l (printf_fp.c:1227)
+==15472==    by 0x509AA06: vfprintf (vfprintf.c:1642)
+==15472==    by 0x509C67F: buffered_vfprintf (vfprintf.c:2329)
+==15472==    by 0x5099725: vfprintf (vfprintf.c:1301)
+==15472==    by 0x50A2F25: printf (printf.c:33)
+==15472==    by 0x1087E3: main (main.c:16)
+==15472== 
+==15472== Syscall param write(buf) points to uninitialised byte(s)
+==15472==    at 0x514E154: write (write.c:27)
+==15472==    by 0x50C91BC: _IO_file_write@@GLIBC_2.2.5 (fileops.c:1203)
+==15472==    by 0x50C9B2E: new_do_write (fileops.c:457)
+==15472==    by 0x50C9B2E: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1277)
+==15472==    by 0x509C706: buffered_vfprintf (vfprintf.c:2350)
+==15472==    by 0x5099725: vfprintf (vfprintf.c:1301)
+==15472==    by 0x50A2F25: printf (printf.c:33)
+==15472==    by 0x1087E3: main (main.c:16)
+==15472==  Address 0x1ffeffe284 is on thread 1's stack
+==15472==  in frame #3, created by buffered_vfprintf (vfprintf.c:2296)
+==15472== 
+==15472== 
+==15472== Process terminating with default action of signal 1 (SIGHUP)
+==15472==    at 0x514E152: write (write.c:27)
+==15472==    by 0x50C91BC: _IO_file_write@@GLIBC_2.2.5 (fileops.c:1203)
+==15472==    by 0x50C9B2E: new_do_write (fileops.c:457)
+==15472==    by 0x50C9B2E: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1277)
+==15472==    by 0x509C706: buffered_vfprintf (vfprintf.c:2350)
+==15472==    by 0x5099725: vfprintf (vfprintf.c:1301)
+==15472==    by 0x50A2F25: printf (printf.c:33)
+==15472==    by 0x1087E3: main (main.c:16)
+==15472== 
+==15472== HEAP SUMMARY:
+==15472==     in use at exit: 0 bytes in 0 blocks
+==15472==   total heap usage: 1 allocs, 1 frees, 1,024 bytes allocated
+==15472== 
+==15472== All heap blocks were freed -- no leaks are possible
+==15472== 
+==15472== For counts of detected and suppressed errors, rerun with: -v
+==15472== Use --track-origins=yes to see where uninitialised values come from
+==15472== ERROR SUMMARY: 31 errors from 14 contexts (suppressed: 0 from 0)

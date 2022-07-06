@@ -1,0 +1,14 @@
+/rhome/l/lbuturovic1/workspace/OR/T9/Z7/main.c: In function ‘strcmpi’:
+/rhome/l/lbuturovic1/workspace/OR/T9/Z7/main.c:31:13: error: ‘malavelika’ undeclared (first use in this function)
+     else if(malavelika==0)
+             ^~~~~~~~~~
+/rhome/l/lbuturovic1/workspace/OR/T9/Z7/main.c:31:13: note: each undeclared identifier is reported only once for each function it appears in
+/rhome/l/lbuturovic1/workspace/OR/T9/Z7/main.c:33:20: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+         char *poc1=s1;
+                    ^~
+/rhome/l/lbuturovic1/workspace/OR/T9/Z7/main.c:34:20: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+         char *poc2=s2;
+                    ^~
+/rhome/l/lbuturovic1/workspace/OR/T9/Z7/main.c:53:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^

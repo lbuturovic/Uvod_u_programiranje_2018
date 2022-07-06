@@ -1,0 +1,4 @@
+/rhome/l/lbuturovic1/workspace/OR/P1/Z20/main.c: In function ‘PopuniDesno’:
+/rhome/l/lbuturovic1/workspace/OR/P1/Z20/main.c:22:8: warning: unused variable ‘krajrijeci’ [-Wunused-variable]
+  char* krajrijeci=p;
+        ^~~~~~~~~~

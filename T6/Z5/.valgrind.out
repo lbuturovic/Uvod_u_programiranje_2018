@@ -1,0 +1,6 @@
+==16335== Memcheck, a memory error detector
+==16335== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==16335== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==16335== Command: /rhome/l/lbuturovic1/workspace/OR/T6/Z5/.runme
+==16335== Parent PID: 16331
+==16335== 

@@ -1,0 +1,14 @@
+/rhome/l/lbuturovic1/workspace/OR/T8/Z3/main.c: In function ‘maxtemp’:
+/rhome/l/lbuturovic1/workspace/OR/T8/Z3/main.c:6:9: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  int *q=p+br;
+         ^
+/rhome/l/lbuturovic1/workspace/OR/T8/Z3/main.c:7:9: warning: comparison of distinct pointer types lacks a cast
+  while(p<q) {
+         ^
+/rhome/l/lbuturovic1/workspace/OR/T8/Z3/main.c: In function ‘prtemp’:
+/rhome/l/lbuturovic1/workspace/OR/T8/Z3/main.c:20:9: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  int *q=p+br;
+         ^
+/rhome/l/lbuturovic1/workspace/OR/T8/Z3/main.c:21:9: warning: comparison of distinct pointer types lacks a cast
+  while(p<q) {
+         ^

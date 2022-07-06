@@ -1,0 +1,13 @@
+/rhome/l/lbuturovic1/workspace/OR/P1/Z14/main.c: In function ‘zamijeni_min_max’:
+/rhome/l/lbuturovic1/workspace/OR/P1/Z14/main.c:164:2: warning: "/*" within comment [-Wcomment]
+  /* while(*s2!='\0'){
+   
+/rhome/l/lbuturovic1/workspace/OR/P1/Z14/main.c:37:6: warning: variable ‘vel’ set but not used [-Wunused-but-set-variable]
+  int vel;
+      ^~~
+/rhome/l/lbuturovic1/workspace/OR/P1/Z14/main.c:35:8: warning: unused variable ‘pocetak_pomocni’ [-Wunused-variable]
+  char* pocetak_pomocni;
+        ^~~~~~~~~~~~~~~
+/rhome/l/lbuturovic1/workspace/OR/P1/Z14/main.c:31:8: warning: unused variable ‘q’ [-Wunused-variable]
+  char* q=p;
+        ^

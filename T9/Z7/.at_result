@@ -1,0 +1,152 @@
+{
+    "buildhost_description": {
+        "id": "lab002c05",
+        "os": "Linux 2.6.32-754.2.1.el6.x86_64 x86_64\n\"CentOS release 6.10 (Final)\"\n",
+        "compiler_version": "gcc (GCC) 6.2.0",
+        "debugger_version": "GNU gdb (GDB) 7.12",
+        "profiler_version": "valgrind-3.12.0"
+    },
+    "status": 4,
+    "compile_result": {
+        "status": 1,
+        "output": "main.c: In function ‘strcmpi’:\nmain.c:15:16: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]\n     char *poc1=s1;\n                ^~\nmain.c:16:16: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]\n     char *poc2=s2;\n                ^~\nmain.c:60:1: warning: control reaches end of non-void function [-Wreturn-type]\n }\n ^",
+        "parsed_output": [
+            {
+                "type": "warning",
+                "file": "main.c",
+                "line": "15",
+                "col": "16",
+                "message": "initialization discards 'const' qualifier from pointer target type",
+                "output": "/tmp/buildservice/bs_1309/main.c:15:16: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]     char *poc1=s1;                ^~",
+                "code": "char *poc1=s1;"
+            },
+            {
+                "type": "warning",
+                "file": "main.c",
+                "line": "16",
+                "col": "16",
+                "message": "initialization discards 'const' qualifier from pointer target type",
+                "output": "/tmp/buildservice/bs_1309/main.c:16:16: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]     char *poc2=s2;                ^~",
+                "code": "char *poc2=s2;"
+            },
+            {
+                "type": "warning",
+                "file": "main.c",
+                "line": "60",
+                "col": "1",
+                "message": "control reaches end of non-void function",
+                "output": "/tmp/buildservice/bs_1309/main.c:60:1: warning: control reaches end of non-void function [-Wreturn-type] } ^",
+                "code": "}"
+            }
+        ]
+    },
+    "run_result": [],
+    "debug_result": [],
+    "profile_result": [],
+    "test_results": {
+        "797": {
+            "status": 1,
+            "run_result": {
+                "output": "0 0",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": "bs_test_797.c: In function ‘strcmpi’:\nbs_test_797.c:17:16: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]\n     char *poc1=s1;\n                ^~\nbs_test_797.c:18:16: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]\n     char *poc2=s2;\n                ^~",
+                "parsed_output": [
+                    {
+                        "type": "warning",
+                        "file": "bs_test_797.c",
+                        "line": "17",
+                        "col": "16",
+                        "message": "initialization discards 'const' qualifier from pointer target type",
+                        "output": "/tmp/buildservice/bs_1309/bs_test_797.c:17:16: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]     char *poc1=s1;                ^~",
+                        "code": "char *poc1=s1;"
+                    },
+                    {
+                        "type": "warning",
+                        "file": "bs_test_797.c",
+                        "line": "18",
+                        "col": "16",
+                        "message": "initialization discards 'const' qualifier from pointer target type",
+                        "output": "/tmp/buildservice/bs_1309/bs_test_797.c:18:16: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]     char *poc2=s2;                ^~",
+                        "code": "char *poc2=s2;"
+                    }
+                ]
+            }
+        },
+        "798": {
+            "status": 1,
+            "run_result": {
+                "output": "0 -1",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": "bs_test_798.c: In function ‘strcmpi’:\nbs_test_798.c:17:16: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]\n     char *poc1=s1;\n                ^~\nbs_test_798.c:18:16: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]\n     char *poc2=s2;\n                ^~",
+                "parsed_output": [
+                    {
+                        "type": "warning",
+                        "file": "bs_test_798.c",
+                        "line": "17",
+                        "col": "16",
+                        "message": "initialization discards 'const' qualifier from pointer target type",
+                        "output": "/tmp/buildservice/bs_1309/bs_test_798.c:17:16: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]     char *poc1=s1;                ^~",
+                        "code": "char *poc1=s1;"
+                    },
+                    {
+                        "type": "warning",
+                        "file": "bs_test_798.c",
+                        "line": "18",
+                        "col": "16",
+                        "message": "initialization discards 'const' qualifier from pointer target type",
+                        "output": "/tmp/buildservice/bs_1309/bs_test_798.c:18:16: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]     char *poc2=s2;                ^~",
+                        "code": "char *poc2=s2;"
+                    }
+                ]
+            }
+        },
+        "1612": {
+            "status": 1,
+            "run_result": {
+                "output": "-1 1",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": "bs_test_1612.c: In function ‘strcmpi’:\nbs_test_1612.c:17:16: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]\n     char *poc1=s1;\n                ^~\nbs_test_1612.c:18:16: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]\n     char *poc2=s2;\n                ^~",
+                "parsed_output": [
+                    {
+                        "type": "warning",
+                        "file": "bs_test_1612.c",
+                        "line": "17",
+                        "col": "16",
+                        "message": "initialization discards 'const' qualifier from pointer target type",
+                        "output": "/tmp/buildservice/bs_1309/bs_test_1612.c:17:16: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]     char *poc1=s1;                ^~",
+                        "code": "char *poc1=s1;"
+                    },
+                    {
+                        "type": "warning",
+                        "file": "bs_test_1612.c",
+                        "line": "18",
+                        "col": "16",
+                        "message": "initialization discards 'const' qualifier from pointer target type",
+                        "output": "/tmp/buildservice/bs_1309/bs_test_1612.c:18:16: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]     char *poc2=s2;                ^~",
+                        "code": "char *poc2=s2;"
+                    }
+                ]
+            }
+        }
+    },
+    "queue_items": 0,
+    "time": 1545315686
+}

@@ -1,0 +1,88 @@
+{
+    "buildhost_description": {
+        "id": "magi",
+        "os": "Linux 4.15.0-43-generic x86_64\nUbuntu 18.04.2 LTS\n",
+        "compiler_version": "gcc (Ubuntu 7.3.0-27ubuntu1~18.04) 7.3.0",
+        "debugger_version": "GNU gdb (Ubuntu 8.1-0ubuntu3) 8.1.0.20180409-git",
+        "profiler_version": "valgrind-3.13.0"
+    },
+    "status": 4,
+    "compile_result": {
+        "status": 1,
+        "output": "main.c: In function ‘PosljednjaRijec’:\nmain.c:19:6: warning: unused variable ‘istina’ [-Wunused-variable]\n  int istina=0;\n      ^~~~~~",
+        "parsed_output": [
+            {
+                "type": "warning",
+                "file": "main.c",
+                "line": "19",
+                "col": "6",
+                "message": "unused variable 'istina'",
+                "output": "/home/buildservice/bs_9789/main.c:19:6: warning: unused variable ‘istina’ [-Wunused-variable]  int istina=0;      ^~~~~~",
+                "code": "int istina=0;"
+            }
+        ]
+    },
+    "run_result": [],
+    "debug_result": [],
+    "profile_result": [],
+    "test_results": {
+        "1303": {
+            "status": 1,
+            "run_result": {
+                "output": "Posljednja rijec: 'dan!'",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "1304": {
+            "status": 1,
+            "run_result": {
+                "output": "'tacno?   '",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "1311": {
+            "status": 1,
+            "run_result": {
+                "output": "troll",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "1312": {
+            "status": 1,
+            "run_result": {
+                "output": "'stringa'",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        }
+    },
+    "queue_items": 0,
+    "time": 1551106080
+}

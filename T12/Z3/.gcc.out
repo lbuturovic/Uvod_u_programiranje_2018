@@ -1,0 +1,7 @@
+/rhome/l/lbuturovic1/workspace/OR/T12/Z3/main.c: In function ‘main’:
+/rhome/l/lbuturovic1/workspace/OR/T12/Z3/main.c:6:36: warning: unused variable ‘vel’ [-Wunused-variable]
+  int brindexa, predmet, ocjena,i=0,vel,predmett,ocjene=0,broj_ocjena=0,polozili=0;
+                                    ^~~
+/rhome/l/lbuturovic1/workspace/OR/T12/Z3/main.c:6:32: warning: unused variable ‘i’ [-Wunused-variable]
+  int brindexa, predmet, ocjena,i=0,vel,predmett,ocjene=0,broj_ocjena=0,polozili=0;
+                                ^

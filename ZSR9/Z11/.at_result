@@ -1,0 +1,95 @@
+{
+    "buildhost_description": {
+        "id": "lab002c18",
+        "os": "Linux 2.6.32-754.2.1.el6.x86_64 x86_64\n\"CentOS release 6.10 (Final)\"\n",
+        "compiler_version": "gcc (GCC) 6.2.0",
+        "debugger_version": "GNU gdb (GDB) 7.12",
+        "profiler_version": "valgrind-3.12.0"
+    },
+    "status": 4,
+    "compile_result": {
+        "status": 1,
+        "output": "main.c: In function ‘GenerisiTablice’:\nmain.c:9:1: warning: control reaches end of non-void function [-Wreturn-type]\n }\n ^",
+        "parsed_output": [
+            {
+                "type": "warning",
+                "file": "main.c",
+                "line": "9",
+                "col": "1",
+                "message": "control reaches end of non-void function",
+                "output": "/tmp/buildservice/bs_465/main.c:9:1: warning: control reaches end of non-void function [-Wreturn-type] } ^",
+                "code": "}"
+            }
+        ]
+    },
+    "run_result": [],
+    "debug_result": [],
+    "profile_result": [],
+    "test_results": {
+        "1": {
+            "status": 3,
+            "run_result": [],
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 2,
+                "output": "bs_test_1.c: In function ‘main’:\nbs_test_1.c:20:2: warning: implicit declaration of function ‘uokvireno’ [-Wimplicit-function-declaration]\n  uokvireno(\"Ovo je primjer nekog uokvirenog teksta.\", 23);\n  ^~~~~~~~~\n/tmp/cclqKrLD.o: In function `main':\nbs_test_1.c:(.text+0x4c): undefined reference to `uokvireno'\ncollect2: error: ld returned 1 exit status",
+                "parsed_output": [
+                    {
+                        "type": "warning",
+                        "file": "TEST_CODE",
+                        "line": 1,
+                        "col": "2",
+                        "message": "implicit declaration of function 'uokvireno'",
+                        "output": "/tmp/buildservice/bs_465/bs_test_1.c:20:2: warning: implicit declaration of function ‘uokvireno’ [-Wimplicit-function-declaration]  uokvireno(\"Ovo je primjer nekog uokvirenog teksta.\", 23);  ^~~~~~~~~/tmp/cclqKrLD.o: In function `main':bs_test_1.c:(.text+0x4c): undefined reference to `uokvireno'collect2: error: ld returned 1 exit status",
+                        "code": "uokvireno(\"Ovo je primjer nekog uokvirenog teksta.\", 23);"
+                    }
+                ]
+            }
+        },
+        "2": {
+            "status": 3,
+            "run_result": [],
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 2,
+                "output": "bs_test_2.c: In function ‘main’:\nbs_test_2.c:20:2: warning: implicit declaration of function ‘uokvireno’ [-Wimplicit-function-declaration]\n  uokvireno(\"otorinolaringologija\", 17);\n  ^~~~~~~~~\n/tmp/ccTgH18L.o: In function `main':\nbs_test_2.c:(.text+0x4c): undefined reference to `uokvireno'\ncollect2: error: ld returned 1 exit status",
+                "parsed_output": [
+                    {
+                        "type": "warning",
+                        "file": "TEST_CODE",
+                        "line": 1,
+                        "col": "2",
+                        "message": "implicit declaration of function 'uokvireno'",
+                        "output": "/tmp/buildservice/bs_465/bs_test_2.c:20:2: warning: implicit declaration of function ‘uokvireno’ [-Wimplicit-function-declaration]  uokvireno(\"otorinolaringologija\", 17);  ^~~~~~~~~/tmp/ccTgH18L.o: In function `main':bs_test_2.c:(.text+0x4c): undefined reference to `uokvireno'collect2: error: ld returned 1 exit status",
+                        "code": "uokvireno(\"otorinolaringologija\", 17);"
+                    }
+                ]
+            }
+        },
+        "3": {
+            "status": 3,
+            "run_result": [],
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 2,
+                "output": "bs_test_3.c: In function ‘main’:\nbs_test_3.c:20:2: warning: implicit declaration of function ‘uokvireno’ [-Wimplicit-function-declaration]\n  uokvireno(\"\",15);\n  ^~~~~~~~~\n/tmp/ccDe8k4R.o: In function `main':\nbs_test_3.c:(.text+0x4c): undefined reference to `uokvireno'\ncollect2: error: ld returned 1 exit status",
+                "parsed_output": [
+                    {
+                        "type": "warning",
+                        "file": "TEST_CODE",
+                        "line": 1,
+                        "col": "2",
+                        "message": "implicit declaration of function 'uokvireno'",
+                        "output": "/tmp/buildservice/bs_465/bs_test_3.c:20:2: warning: implicit declaration of function ‘uokvireno’ [-Wimplicit-function-declaration]  uokvireno(\"\",15);  ^~~~~~~~~/tmp/ccDe8k4R.o: In function `main':bs_test_3.c:(.text+0x4c): undefined reference to `uokvireno'collect2: error: ld returned 1 exit status",
+                        "code": "uokvireno(\"\",15);"
+                    }
+                ]
+            }
+        }
+    },
+    "queue_items": 0,
+    "time": 1551137824
+}

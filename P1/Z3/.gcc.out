@@ -1,0 +1,4 @@
+/rhome/l/lbuturovic1/workspace/OR/P1/Z3/main.c: In function ‘main’:
+/rhome/l/lbuturovic1/workspace/OR/P1/Z3/main.c:6:25: warning: variable ‘x2’ set but not used [-Wunused-but-set-variable]
+  long double x1,y1,k,nn,x2,y2;
+                         ^~

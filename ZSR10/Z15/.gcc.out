@@ -1,0 +1,7 @@
+/rhome/l/lbuturovic1/workspace/OR/ZSR10/Z15/main.c: In function ‘cenzura’:
+/rhome/l/lbuturovic1/workspace/OR/ZSR10/Z15/main.c:132:2: warning: "/*" within comment [-Wcomment]
+  /*printf ("strlen je %d\n",strlen(zab[i]));
+   
+/rhome/l/lbuturovic1/workspace/OR/ZSR10/Z15/main.c:103:8: warning: unused variable ‘s’ [-Wunused-variable]
+  char *s=str;
+        ^

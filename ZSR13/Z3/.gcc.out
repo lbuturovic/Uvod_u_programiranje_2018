@@ -1,0 +1,4 @@
+/rhome/l/lbuturovic1/workspace/OR/ZSR13/Z3/main.c: In function ‘ucitaj_ocjene’:
+/rhome/l/lbuturovic1/workspace/OR/ZSR13/Z3/main.c:64:2: warning: "/*" within comment [-Wcomment]
+  /* ucitano= fread (ocjene[i].s.ime,1,19, ulaz);
+   

@@ -1,0 +1,14 @@
+/rhome/l/lbuturovic1/workspace/OR/Z4/Z2/main.c: In function ‘zamijeni_min_max’:
+/rhome/l/lbuturovic1/workspace/OR/Z4/Z2/main.c:35:6: warning: unused variable ‘vel’ [-Wunused-variable]
+  int vel;
+      ^~~
+/rhome/l/lbuturovic1/workspace/OR/Z4/Z2/main.c: At top level:
+/rhome/l/lbuturovic1/workspace/OR/Z4/Z2/main.c:143:3: warning: "/*" within comment [-Wcomment]
+   /* while(*s2!='\0'){
+    
+/rhome/l/lbuturovic1/workspace/OR/Z4/Z2/main.c:270:1: warning: "/*" within comment [-Wcomment]
+ /* while(*q!='\0') {
+  
+/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
